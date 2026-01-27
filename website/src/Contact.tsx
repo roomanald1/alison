@@ -1,6 +1,7 @@
 export function Contact() {
     return (<section id="contact" className='page-section bg-gray-lighter '>
           <div className='container relative'>
+              <div className='section-title'>CONTACT</div>
           <div className='row'>
             <div className='col-sm-6'>
               <div className='contact-item'>
