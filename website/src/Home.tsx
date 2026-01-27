@@ -5,7 +5,7 @@ import { Contact } from "./Contact";
 export function Home() {
     return (<>
         <About />
-        <BlogsList number_of_items={3}  />
+        <BlogsList number_of_items={3} is_dark={true}  />
         <Contact />
     </>)
 }

@@ -1,6 +1,7 @@
 import { marked } from "marked";
 import React from "react";
 import { useParams } from "react-router-dom";
+import { Contact } from "./Contact";
 
 const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
 
@@ -26,6 +27,7 @@ export function BlogPost() {
   }, [slug]);
 
   return (
+    <>
     <section className="page-section">
       <div className="container relative">
         <div
@@ -33,5 +35,7 @@ export function BlogPost() {
         />
       </div>
     </section>
+    <Contact/>
+    </>
   );
 }

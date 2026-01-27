@@ -21,7 +21,7 @@ export async function loadBlogs(number_of_items: number) {
     return entries;
 }
 
-export function BlogsList(args: {number_of_items: number}) {
+export function BlogsList(args: {number_of_items: number, is_dark: boolean}) {
     const navigate = useNavigate();
 
     const [blogs, setBlogs] = React.useState<{ date: Date, raw_date: String, filename: String, content: string }[]>([]);
@@ -33,7 +33,7 @@ export function BlogsList(args: {number_of_items: number}) {
         });
     }, []);
 
-    return (<section id="blog" className='page-section bg-dark'>
+    return (<section id="blog" style={{marginTop: 10}} className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
         <div className='container relative'>
             <div className='section-title'>BLOG</div>
             {blogs.map((doc) =>
@@ -41,7 +41,7 @@ export function BlogsList(args: {number_of_items: number}) {
                     <div
                         dangerouslySetInnerHTML={{ __html: marked(doc.content.substring(0, 200) + "...") }}
                     />
-                    <button onClick={() => navigate(`/blog/${doc.filename}`)} className="btn-w btn-mod btn-small btn-round">Read More</button>
+                    <button onClick={() => navigate(`/blog/${doc.filename}`)} className={(args.is_dark ? "btn-w" : "btn") + " btn-mod btn-small btn-round"}>Read More</button>
                 </div>
 
             )}
