@@ -39,7 +39,7 @@ export function BlogsSummary() {
             {blogs.map((doc) =>
                 <div key={doc.raw_date.toString()} style={{ marginBottom: 10 }}>
                     <div
-                        dangerouslySetInnerHTML={{ __html: marked(doc.content.substring(0, 100) + "...") }}
+                        dangerouslySetInnerHTML={{ __html: marked(doc.content.substring(0, 200) + "...") }}
                     />
                     <button onClick={() => navigate(`/blog/${doc.filename}`)} className="btn-w btn-mod btn-small btn-round">Read More</button>
                 </div>
