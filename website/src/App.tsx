@@ -5,8 +5,31 @@ import './assets/css/font-awesome.min.css'
 import './assets/css/vertical-rhythm.min.css'
 import './assets/css/style.css'
 import headshot from "./assets/headshot.jpg"
+import React from 'react'
+import { marked } from 'marked';
+
+const mdFiles = import.meta.glob<string>('/src/content/**/*.md', { as: 'raw' });
+
+export async function loadAllMarkdown() {
+  const entries = await Promise.all(
+    Object.entries(mdFiles).map(async ([path, loader]) => ({
+      path,
+      content: await loader() // <-- plain string
+    }))
+  );
+
+  return entries;
+}
+
 
 function App() {
+  const [docs, setDocs] = React.useState<{ path: string; content: string }[]>([]);
+
+  React.useEffect(() => {
+    loadAllMarkdown().then(setDocs);
+  }, []);
+
+
   return (
     <div className='page'>
       <div className='sticky-wrapper'>
@@ -57,8 +80,17 @@ function App() {
           </div>
         </section>
 
+        <section className='page-section bg-dark'>
+          <div className='section-title'>BLOG</div>
+          {docs.map(doc => 
+   <div key={doc.path}
+          dangerouslySetInnerHTML={{ __html: marked(doc.content) }}
+          />
+        )}
+        
+
+        </section>
         <section className='page-section bg-gray-lighter '>
-          
           <div className='container relative'>
           <div className='row'>
             <div className='col-sm-6'>
