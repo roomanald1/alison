@@ -4,9 +4,9 @@ import { parse } from "date-fns";
 import { useNavigate } from "react-router-dom";
 
 const blogMds = import.meta.glob<string>('/src/content/blogs**/*.md', { as: 'raw' });
-export async function loadBlogSummary() {
+export async function loadBlogs(number_of_items: number) {
     const entries = await Promise.all(
-        Object.entries(blogMds).slice(0, 3).map(async ([path, loader]) => {
+        Object.entries(blogMds).slice(0, number_of_items).map(async ([path, loader]) => {
             let filename = path.split('/').pop() ?? "";
             let date = filename?.split(" -- ")?.shift()?.replace(".md", "") ?? "";
             return ({
@@ -21,13 +21,13 @@ export async function loadBlogSummary() {
     return entries;
 }
 
-export function BlogsSummary() {
+export function BlogsList(args: {number_of_items: number}) {
     const navigate = useNavigate();
 
     const [blogs, setBlogs] = React.useState<{ date: Date, raw_date: String, filename: String, content: string }[]>([]);
 
     React.useEffect(() => {
-        loadBlogSummary().then(blogs => {
+        loadBlogs(args.number_of_items).then(blogs => {
             let sorted = blogs.sort((a, b) => b.date.getTime() - a.date.getTime());
             setBlogs(sorted)
         });
