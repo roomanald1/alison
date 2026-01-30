@@ -2,6 +2,7 @@ import React from "react";
 import { marked } from 'marked';
 import { parse } from "date-fns";
 import { useNavigate } from "react-router-dom";
+import { Banner } from "./Banner";
 
 const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
 export async function loadBlogs(number_of_items: number | "all") {
@@ -38,9 +39,9 @@ export function BlogsList(args: { number_of_items: number | "all", is_dark: bool
         });
     }, []);
 
-    return (<section id="blog" style={{ marginTop: 10 }} className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
+    return (<section id="blog" className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
+        {Banner(<h1>Blog</h1>)}
         <div className='container relative'>
-            <div className='section-title'>BLOG</div>
             {blogs.map((doc) =>
                 <div key={doc.raw_date.toString()} style={{ marginBottom: 10 }}>
                     <div
