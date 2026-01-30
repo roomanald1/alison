@@ -7,7 +7,7 @@ export function Contact() {
     const [contactResult, setContactResult] = React.useState<{ success: boolean, message: string | undefined } | undefined>(undefined);
 
     const onClick = (e: React.FormEvent) => {
-        e.preventDefault(); // ✅ Prevent page refresh
+        e.preventDefault();
         if (form.current) {
             emailjs.sendForm('service_zqdaf8t', 'template_fkgktde', form.current, 'q5OrP3w__HT0d1qpI').then(() => {
                 setContactResult({ success: true, message: "Message sent successfully" })
@@ -19,9 +19,13 @@ export function Contact() {
         }
     }
 
-    return (<section id="contact" className='page-section bg-gray-lighter '>
+    return (<section id="contact" className='page-section'   style={{  background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7ee63 100%)",
+
+
+
+  }} >
         <div className='container relative'>
-            <div className='section-title'>CONTACT</div>
+            <div className='section-title'>GET IN TOUCH</div>
             <div className='row'>
                 <div className='col-sm-6'>
                     <div className='contact-item'>

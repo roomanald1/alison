@@ -5,7 +5,7 @@ export function Navigation() {
 
     
                     <div className="nav-logo-wrap local-scroll">
-                        <a href="/" className="logo small-height" style={{ fontSize: 14 }}>
+                        <a href="/" className="logo small-height" style={{ fontSize: 13 }}>
                             Alison Day
                         </a>
                     </div>
@@ -15,8 +15,10 @@ export function Navigation() {
                     </div>
                     <div className="inner-nav desktop-nav">
                         <ul className="clearlist scroll-nav local-scroll">
-                            <li><a href="/#home" style={{ lineHeight: 75, height: 75 }} >Home</a></li>
-                            <li><a href="/blogs" style={{ lineHeight: 75, height: 75 }}>Blog</a></li>
+                            <li><a href="/" style={{ lineHeight: 75, height: 75 }} >Home</a></li>
+                            <li><a href="/services" style={{ lineHeight: 75, height: 75 }}>Services</a></li>
+                            <li><a href="/about" style={{ lineHeight: 75, height: 75 }} >About</a></li>
+                            <li><a href="/blog" style={{ lineHeight: 75, height: 75 }}>Blog</a></li>
                             <li><a href="/contact" style={{ lineHeight: 75, height: 75 }}>Contact</a></li>
                         </ul>
                     </div>

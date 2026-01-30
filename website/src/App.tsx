@@ -12,9 +12,12 @@ import { BlogPost } from './BlogPost'
 import { BlogsList } from './BlogsList'
 import { Contact } from './Contact'
 import type { JSX } from 'react/jsx-runtime'
+import { About } from './About'
+import { Services } from './Services'
+import { Banner } from './Banner'
 
 function App() {
-  
+
 
   return (
     <div className='page'>
@@ -24,8 +27,10 @@ function App() {
           <Routes>
             <Route path="/" element={with_contact(<Home />)} />
             <Route path="/blog/:date/:slug" element={with_contact(<BlogPost />)} />
-            <Route path="/blogs" element={with_contact(<BlogsList is_dark={false} number_of_items={"all"} />)} />
-            <Route path="/contact" element={<Contact/>} />
+            <Route path="/blog" element={with_contact(<BlogsList is_dark={false} number_of_items={"all"} />)} />
+            <Route path="/about" element={with_contact(<About />)} />
+            <Route path="/services" element={with_contact(<Services />)} />
+            <Route path="/contact" element={<section className='page-section'>{Banner(<h1>Contact</h1>)}<Contact /></section>} />
           </Routes>
         </BrowserRouter>
       </main>
@@ -35,9 +40,10 @@ function App() {
 
 function with_contact(element: JSX.Element) {
   return (<>
-  {element}
-  <Contact/>
+    {element}
+    <Contact />
   </>)
 }
+
 
 export default App

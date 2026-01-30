@@ -2,9 +2,9 @@ import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 
-const md = import.meta.glob<string>('/src/content/home/**/*.md', { as: 'raw' });
+const md = import.meta.glob<string>('/src/content/services/**/*.md', { as: 'raw' });
 
-export function Home() {
+export function Services() {
 
     const [content, setContent] = React.useState<string>("");
 
@@ -22,21 +22,7 @@ export function Home() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(
-            <>
-                <h1 style={{
-                    fontSize: "52px",
-                    fontWeight: 700,
-                    margin: 0,
-                    color: "#222"
-                }}>
-                    Alison Day
-                </h1>
-
-                <p className="section-title">
-                    Therapy & Emotional Wellbeing
-                </p>
-            </>)}
+        {Banner(<h1>Services</h1>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section className='section-text'>
                 <div
