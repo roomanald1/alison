@@ -11,23 +11,33 @@ import { Home } from './Home'
 import { BlogPost } from './BlogPost'
 import { BlogsList } from './BlogsList'
 import { Contact } from './Contact'
+import type { JSX } from 'react/jsx-runtime'
 
 function App() {
+  
+
   return (
     <div className='page'>
       <Navigation />
       <main id='main'>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/blogs" element={<BlogsList is_dark={false} number_of_items={100} />} />
+            <Route path="/" element={with_contact(<Home />)} />
+            <Route path="/blog/:date/:slug" element={with_contact(<BlogPost />)} />
+            <Route path="/blogs" element={with_contact(<BlogsList is_dark={false} number_of_items={"all"} />)} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </BrowserRouter>
-        <Contact/>
       </main>
     </div>
   )
+}
+
+function with_contact(element: JSX.Element) {
+  return (<>
+  {element}
+  <Contact/>
+  </>)
 }
 
 export default App

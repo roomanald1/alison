@@ -3,15 +3,20 @@ import { marked } from 'marked';
 import { parse } from "date-fns";
 import { useNavigate } from "react-router-dom";
 
-const blogMds = import.meta.glob<string>('/src/content/blogs**/*.md', { as: 'raw' });
-export async function loadBlogs(number_of_items: number) {
+const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
+export async function loadBlogs(number_of_items: number | "all") {
+    let num = number_of_items == "all" ? undefined : Number(number_of_items)
     const entries = await Promise.all(
-        Object.entries(blogMds).slice(0, number_of_items).map(async ([path, loader]) => {
-            let filename = path.split('/').pop() ?? "";
-            let date = filename?.split(" -- ")?.shift()?.replace(".md", "") ?? "";
+        Object.entries(blogMds).slice(0, num).map(async ([path, loader]) => {
+            path = path.replace(".md", "");
+            let split = path.split('/')
+            let filename = split.pop() ?? "";
+            let dateStr = split.pop() ?? ""
+            let date = dateStr ?? "";
             return ({
                 date: parse(date, "dd-MM-yyyy", new Date()),
                 filename,
+                path: dateStr + "/" + filename,
                 raw_date: date,
                 content: await loader() // <-- plain string
             })
@@ -21,10 +26,10 @@ export async function loadBlogs(number_of_items: number) {
     return entries;
 }
 
-export function BlogsList(args: {number_of_items: number, is_dark: boolean}) {
+export function BlogsList(args: { number_of_items: number | "all", is_dark: boolean }) {
     const navigate = useNavigate();
 
-    const [blogs, setBlogs] = React.useState<{ date: Date, raw_date: String, filename: String, content: string }[]>([]);
+    const [blogs, setBlogs] = React.useState<{ date: Date, raw_date: String, filename: String, path: String, content: string }[]>([]);
 
     React.useEffect(() => {
         loadBlogs(args.number_of_items).then(blogs => {
@@ -33,7 +38,7 @@ export function BlogsList(args: {number_of_items: number, is_dark: boolean}) {
         });
     }, []);
 
-    return (<section id="blog" style={{marginTop: 10}} className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
+    return (<section id="blog" style={{ marginTop: 10 }} className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
         <div className='container relative'>
             <div className='section-title'>BLOG</div>
             {blogs.map((doc) =>
@@ -41,7 +46,7 @@ export function BlogsList(args: {number_of_items: number, is_dark: boolean}) {
                     <div
                         dangerouslySetInnerHTML={{ __html: marked(doc.content.substring(0, 200) + "...") }}
                     />
-                    <button onClick={() => navigate(`/blog/${doc.filename}`)} className={(args.is_dark ? "btn-w" : "btn") + " btn-mod btn-small btn-round"}>Read More</button>
+                    <button onClick={() => navigate(`/blog/${doc.path}`)} className={(args.is_dark ? "btn-w" : "btn") + " btn-mod btn-small btn-round"}>Read More</button>
                 </div>
 
             )}

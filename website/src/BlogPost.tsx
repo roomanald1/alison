@@ -5,15 +5,14 @@ import { useParams } from "react-router-dom";
 const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
 
 export function BlogPost() {
-  const { slug } = useParams();
+  const { date, slug} = useParams();
   const [content, setContent] = React.useState<string>("");
 
   React.useEffect(() => {
-    if (!slug) return;
+    if (!slug || !date) return;
 
-    console.log(slug)
     const match = Object.entries(blogMds).find(([path]) =>
-      path.endsWith(`${slug}`)
+      path.endsWith(`${date}/${slug}.md`)
     );
     console.log(match)
     if (!match) return;
@@ -23,7 +22,7 @@ export function BlogPost() {
     loader().then(raw => {
         console.log(raw)
         setContent(raw)});
-  }, [slug]);
+  }, [slug, date]);
 
   return (
     <>
