@@ -19,7 +19,7 @@ export function Contact() {
         }
     }
 
-    return (<section id="contact" className='page-section'   style={{  background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7ee63 100%)",
+    return (<section id="contact" className='page-section'   style={{  background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7eeb9 100%)",
 
 
 

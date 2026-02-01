@@ -1,7 +1,6 @@
 import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
-import _headshot from "./assets/headshot.jpg"
 const md = import.meta.glob<string>('/src/content/home/**/*.md', { as: 'raw' });
 
 export function Home() {

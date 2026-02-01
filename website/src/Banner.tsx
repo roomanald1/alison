@@ -10,7 +10,7 @@ export function Banner(element: JSX.Element)
     maxHeight: "420px",
     overflow: "hidden",
     marginBottom: "40px",
-   background: "linear-gradient(90deg, #f2f3f4a8 0%, #b4d9f13b 50%, #d0f3d036 100%)"
+   background: "linear-gradient(90deg, #f2f3f4a2 0%, #b4d9f167 50%, #d0f3d069 100%)"
 
 
   }}

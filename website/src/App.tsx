@@ -15,7 +15,6 @@ import type { JSX } from 'react/jsx-runtime'
 import { About } from './About'
 import { Services } from './Services'
 import { Banner } from './Banner'
-
 function App() {
 
 
