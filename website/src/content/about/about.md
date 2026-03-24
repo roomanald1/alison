@@ -4,15 +4,15 @@ I’m an MBACP-registered psychodynamic psychotherapist with experience supporti
 
 My background includes work in community services, perinatal support and long-term psychodynamic therapy. Before training as a therapist, I worked in roles that centred on emotional understanding, communication and supporting people through complex experiences, foundations that continue to shape my therapeutic work.
 
-## Areas I specialise in
-
-#### **Parenthood and family life**
-Pregnancy, birth, and early parenthood can bring complex and sometimes unexpected emotions. You may feel overwhelmed, unsure of yourself, or quietly struggling as your identity shifts and relationships change. I offer a space where these experiences can be explored openly and without judgement.
-
-#### **Anxiety, low mood & emotional overwhelm**
-You might be managing on the outside - work or studying, family and friends, and everyday life - while inside feeling overwhelmed, anxious, overthinking or no longer quite like yourself. Together, we can begin to understand what sits beneath these feelings and how they are shaping your experience.
-
-#### **Loss, grief and life transitions**
+> ## Areas I specialise in
+> 
+> #### **Parenthood and family life**
+> Pregnancy, birth, and early parenthood can bring complex and sometimes unexpected emotions. You may feel overwhelmed, unsure of yourself, or quietly struggling as your identity shifts and relationships change. I offer a space where these experiences can be explored openly and without judgement.
+>
+> #### **Anxiety, low mood & emotional overwhelm**
+> You might be managing on the outside - work or studying, family and friends, and everyday life - while inside feeling overwhelmed, anxious, overthinking or no longer quite like yourself. Together, we can begin to understand what sits beneath these feelings and how they are shaping your experience.
+>
+> #### **Loss, grief and life transitions**
 Loss can take many forms — bereavement, miscarriage, relationship endings or changes, or shifts in your identity or career. These experiences can feel disorienting and difficult to process alone. I offer a space better understand your loss and the impact this has had, helping you to find steadiness again.
 
 ## My approach
