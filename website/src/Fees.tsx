@@ -1,9 +1,10 @@
 import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
-const md = import.meta.glob<string>('/src/content/home/**/*.md', { as: 'raw' });
 
-export function Home() {
+const md = import.meta.glob<string>('/src/content/fees/**/*.md', { as: 'raw' });
+
+export function Fees() {
 
     const [content, setContent] = React.useState<string>("");
 
@@ -21,21 +22,7 @@ export function Home() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(
-            <>
-                <h1 style={{
-                    fontSize: "52px",
-                    fontWeight: 700,
-                    margin: 0,
-                    color: "#222"
-                }}>
-                    ALISON DAY
-                </h1>
-
-                <p className="section-title">
-                    Psychotherapy and Counselling in Sevenoaks and Online
-                </p>
-            </>)}
+        {Banner(<h1>FEES</h1>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section className='section-text'>
                 <div

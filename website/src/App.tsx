@@ -15,6 +15,7 @@ import type { JSX } from 'react/jsx-runtime'
 import { About } from './About'
 import { Services } from './Services'
 import { Banner } from './Banner'
+import { Fees } from './Fees'
 function App() {
 
 
@@ -29,7 +30,8 @@ function App() {
             <Route path="/blog" element={with_contact(<BlogsList is_dark={false} number_of_items={"all"} />)} />
             <Route path="/about" element={with_contact(<About />)} />
             <Route path="/services" element={with_contact(<Services />)} />
-            <Route path="/contact" element={<section className='page-section'>{Banner(<h1>Contact</h1>)}<Contact /></section>} />
+            <Route path="/fees" element={with_contact(<Fees />)} />
+            <Route path="/contact" element={<section className='page-section'>{Banner(<h1>CONTACT</h1>)}<Contact /></section>} />
           </Routes>
         </BrowserRouter>
       </main>

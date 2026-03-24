@@ -22,13 +22,23 @@ export function About() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<h1>About</h1>)}
-        <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-            <section className='section-text'>
+        {Banner(<>
+            <h1>ABOUT ME</h1>
+            <p className="section-title">
+                Alison Day, <br/>
+                 Psychodynamic Counsellor and Psychotherapist 
+                <br/>(MSc, BA Hons, MBACP)
+            </p>
+        </>
+        )}
+        <div className='container relative'>
+
+            <div className="profile">
+                <img src="/headshot.jpg" alt="Alison Day" />
                 <div
                     dangerouslySetInnerHTML={{ __html: marked(content) }}
                 />
-            </section>
+            </div>
         </div>
     </section>)
 }

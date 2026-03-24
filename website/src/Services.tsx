@@ -22,7 +22,7 @@ export function Services() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<h1>Services</h1>)}
+        {Banner(<h1>HOW I WORK</h1>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section className='section-text'>
                 <div

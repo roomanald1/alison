@@ -19,11 +19,10 @@ export function Contact() {
         }
     }
 
-    return (<section id="contact" className='page-section'   style={{  background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7eeb9 100%)",
+    return (<section id="contact" className='page-section' style={{
+        background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7eeb9 100%)",
 
-
-
-  }} >
+    }} >
         <div className='container relative'>
             <div className='section-title'>GET IN TOUCH</div>
             <div className='row'>
