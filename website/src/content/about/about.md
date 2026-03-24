@@ -1,4 +1,6 @@
 
+
+
 ## Alison Day
 
 I’m an MBACP-registered psychodynamic psychotherapist with experience supporting young people (from 16 years) and adults in Sevenoaks and online. Many of the people I work with start their journey feeling overwhelmed, anxious, stuck or unsure of themselves, and want to better understand themselves and their behavioural patterns. 
