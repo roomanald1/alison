@@ -1,16 +1,21 @@
-# Service1
+Therapy offers a space to slow down and explore what feels difficult, with someone alongside you.
 
-consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.
-Etiam sit amet fringilla lacus. Pellentesque suscippiteme ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.
-Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+My approach is psychodynamic, meaning we pay attention not only to what’s happening in your life now, but look at the deeper patterns that may help you make sense of your experiences. This can bring greater understanding, enabling self awareness and allowing space for meaningful change.  
 
+You don’t need to arrive with a clear story or the “right” words. We can find the language together.
 
+## What to expect
 
-# Service2
+- A free 15-minute introductory call
+- An initial 75-minute consultation
+- Ongoing weekly 50-minute therapy sessions (in-person or online)
+We can work:
+- **Short-term**, focusing on a specific difficulty
+- **Longer-term**, allowing for deeper exploration
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.
-Etiam sit amet fringilla lacus. Pellentesque suscippiteme ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.
-Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+## Taking the first step
 
-# Service3 
-id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis.
+Beginning therapy can feel like a big step.
+
+If you’re considering it, you’re very welcome to get in touch using the contact details below for an initial conversation.
+I aim to respond to all requests within 48-hours.
