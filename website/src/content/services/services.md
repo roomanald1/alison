@@ -5,7 +5,6 @@ My approach is psychodynamic, meaning we pay attention not only to what’s happ
 You don’t need to arrive with a clear story or the “right” words. We can find the language together.
 
 ## What to expect
-
 - A free 15-minute introductory call
 - An initial 75-minute consultation
 - Ongoing weekly 50-minute therapy sessions (in-person or online)  
