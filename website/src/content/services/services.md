@@ -18,5 +18,5 @@ You don’t need to arrive with a clear story or the “right” words. We can f
 
 Beginning therapy can feel like a big step.
 
-If you’re considering it, you’re very welcome to get in touch using the contact details below for an initial conversation.
+If you’re considering it, you’re very welcome to get in touch using the contact details below for an initial conversation.  
 I aim to respond to all requests within 48-hours.
