@@ -1,6 +1,6 @@
 ### Session fees 
 
-Initial consultation:  in person £90 (Sevenoaks) • Online £75 (online) for 75-minutes.
+Initial consultation:  in person £90 (Sevenoaks) • Online £75 (online) for 75-minutes.  
 Ongoing sessions:  in person £60 (Sevenoaks) • Online £50 (online) for 50-minutes.
 
 I offer weekly sessions, either:
