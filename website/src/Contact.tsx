@@ -33,7 +33,7 @@ export function Contact() {
                             CALL
                         </div>
                         <div className='ci-text'>
-                            07711111111 TBC
+                            07445 316 482
                         </div>
                     </div>
                 </div>
