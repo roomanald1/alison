@@ -31,6 +31,6 @@ Online sessions follow the same structure as in-person work and can offer flexib
 - Periods of overwhelm
 - Busy or changing schedules
 
-### Next step
+### Next steps
 
 If you’re considering therapy, you’re very welcome to get in touch.
