@@ -10,7 +10,7 @@ You don’t need to arrive with a clear story or the “right” words. We can f
 - An initial 75-minute consultation
 - Ongoing weekly 50-minute therapy sessions (in-person or online)  
 
-###### We can work:
+##### We can work:
 - **Short-term**, focusing on a specific difficulty
 - **Longer-term**, allowing for deeper exploration
 
