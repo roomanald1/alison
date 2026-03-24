@@ -1,8 +1,10 @@
+
 ## Alison Day
 
 I’m an MBACP-registered psychodynamic psychotherapist with experience supporting young people (from 16 years) and adults in Sevenoaks and online. Many of the people I work with start their journey feeling overwhelmed, anxious, stuck or unsure of themselves, and want to better understand themselves and their behavioural patterns. 
 
 My background includes work in community services, perinatal support and long-term psychodynamic therapy. Before training as a therapist, I worked in roles that centred on emotional understanding, communication and supporting people through complex experiences, foundations that continue to shape my therapeutic work.
+
 
 ## Areas I specialise in
  
