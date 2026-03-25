@@ -14,7 +14,6 @@ import { Contact } from './Contact'
 import type { JSX } from 'react/jsx-runtime'
 import { About } from './About'
 import { Services } from './Services'
-import { Banner } from './Banner'
 import { Fees } from './Fees'
 import { ContactPage } from './ContactPage'
 function App() {
