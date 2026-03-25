@@ -6,11 +6,9 @@ export function Banner(element: JSX.Element)
   style={{
     position: "relative",
     width: "100vw",
-    minHeight: "320px",
-    maxHeight: "420px",
-    overflow: "hidden",
+    height: "360px",
     marginBottom: "40px",
-   background: "linear-gradient(90deg, #f2f3f4a2 0%, #b4d9f167 50%, #d0f3d069 100%)",
+   background: "linear-gradient(90deg, #f2f3f4a2 0%, #b4d9f167 20%, #9731ce21 100%)",
   }}
 >
 
@@ -22,7 +20,6 @@ export function Banner(element: JSX.Element)
       transform: "translate(-50%, -50%)",
       textAlign: "center",
       color: "#333",
-      padding: "0 20px",
       width: "90vw"
 
     }}

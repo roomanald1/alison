@@ -20,14 +20,12 @@ export function Home() {
         });
     }, []);
 
-    return (<section className='page-section'>
+    return (<section>
         {Banner(
             <>
                 <h1 style={{
-                    fontSize: "52px",
-                    fontWeight: 700,
+                    fontSize: "42px",
                     margin: 0,
-                    color: "#222"
                 }}>
                     ALISON DAY
                 </h1>
@@ -37,7 +35,7 @@ export function Home() {
                 </p>
             </>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-            <section className='section-text'>
+            <section>
                 <div
                     dangerouslySetInnerHTML={{ __html: marked(content) }}
                 />

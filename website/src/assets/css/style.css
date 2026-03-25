@@ -518,6 +518,7 @@ h1,
 h2,
 .h2 {
     font-size: 28px;
+    font-weight: 600;
 }
 
 h3,
@@ -2234,6 +2235,7 @@ ul {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    border-bottom: solid 1px #9631ce;
 }
 
 .main-nav.dark .inner-nav ul>li>a {
@@ -2756,7 +2758,7 @@ ul {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    padding: 4em 0;
+    padding: 2em 0;
 }
 
 .small-section {
@@ -3114,14 +3116,22 @@ ul {
     background-color: #e13939 !important;
 }
 
+.fi {
+    margin-bottom: 10px; 
+    margin-top:10px; 
+    font-size:24px;
+    color: #9631ce;
+}
+
 .section-title {
     margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.5em;
     line-height: 1.4;
+    color: #6e6e6e;
 }
 
 .section-more {
@@ -7401,9 +7411,9 @@ section:hover .small-item-carousel .owl-next {
 @media (min-width: 700px) {
     .profile img {
         float: left;
-        width: 250px;
+        width: 200px;
         height: auto;
-        margin: 0 20px 20px 0;
+        margin-right: 20px;
         /* space around the image */
         object-fit: contain;
     }

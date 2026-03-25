@@ -24,7 +24,7 @@ export function Fees() {
     return (<section className='page-section'>
         {Banner(<h1>FEES</h1>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-            <section className='section-text'>
+            <section>
                 <div
                     dangerouslySetInnerHTML={{ __html: marked(content) }}
                 />

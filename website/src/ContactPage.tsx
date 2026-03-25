@@ -2,9 +2,9 @@ import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 
-const md = import.meta.glob<string>('/src/content/services/**/*.md', { as: 'raw' });
+const md = import.meta.glob<string>('/src/content/contact/**/*.md', { as: 'raw' });
 
-export function Services() {
+export function ContactPage() {
 
     const [content, setContent] = React.useState<string>("");
 
@@ -22,13 +22,14 @@ export function Services() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<h1>HOW I WORK</h1>)}
-        <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-            <section>
-                <div
-                    dangerouslySetInnerHTML={{ __html: marked(content) }}
-                />
-            </section>
+        {Banner(<>
+            <h1>CONTACT</h1>
+        </>
+        )}
+        <div className='container relative'>
+            <div
+                dangerouslySetInnerHTML={{ __html: marked(content) }}
+            />
         </div>
     </section>)
 }

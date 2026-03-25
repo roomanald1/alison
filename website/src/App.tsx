@@ -16,6 +16,7 @@ import { About } from './About'
 import { Services } from './Services'
 import { Banner } from './Banner'
 import { Fees } from './Fees'
+import { ContactPage } from './ContactPage'
 function App() {
 
 
@@ -31,7 +32,7 @@ function App() {
             <Route path="/about" element={with_contact(<About />)} />
             <Route path="/services" element={with_contact(<Services />)} />
             <Route path="/fees" element={with_contact(<Fees />)} />
-            <Route path="/contact" element={<section className='page-section'>{Banner(<h1>CONTACT</h1>)}<Contact /></section>} />
+            <Route path="/contact" element={with_contact(<ContactPage/>)} />
           </Routes>
         </BrowserRouter>
       </main>
