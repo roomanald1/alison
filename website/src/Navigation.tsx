@@ -1,6 +1,6 @@
 export function Navigation() {
     return (<div className='sticky-wrapper'>
-        <nav className="main-nav dark stick-fixed small-height">
+        <nav className="main-nav stick-fixed small-height">
             <div className="full-wrapper relative clearfix">
 
     

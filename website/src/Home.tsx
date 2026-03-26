@@ -24,10 +24,12 @@ export function Home() {
         {Banner(
             <>
                 <h1 style={{
-                    fontSize: "42px",
+                    fontSize: "62px",
                     margin: 0,
+                    fontFamily: "Autography",
+                    fontWeight: 400
                 }}>
-                    ALISON DAY
+                   Alison Day
                 </h1>
 
                 <p className="section-title">
