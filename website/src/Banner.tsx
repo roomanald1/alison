@@ -7,7 +7,7 @@ export function Banner(element: JSX.Element) {
       width: "100vw",
       height: "360px",
       marginBottom: "40px",
-      background: "linear-gradient(90deg, #64a19c23 0%, #b4d9f165 20%,  #9731ce2c 70%,  #9731ce4d 100%)",
+      background: "linear-gradient(90deg, var(--brand-color2) 0%,  var(--brand-color3) 20%,  var(--brand-color4) 70%,   var(--brand-color5) 100%)",
     }}
   >
 

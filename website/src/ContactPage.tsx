@@ -23,7 +23,11 @@ export function ContactPage() {
 
     return (<section className='page-section'>
         {Banner(<>
-            <h1>CONTACT</h1>
+                        <h1 style={{
+                fontSize: "62px",
+                margin: 0, fontFamily: "Autography",
+                fontWeight: 400
+            }}>Contact</h1>
         </>
         )}
         <div className='container relative'>

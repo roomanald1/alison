@@ -23,11 +23,15 @@ export function About() {
 
     return (<section className='page-section'>
         {Banner(<>
-            <h1>ABOUT ME</h1>
+            <h1 style={{
+                fontSize: "62px",
+                margin: 0, fontFamily: "Autography",
+                fontWeight: 400
+            }}>About Me</h1>
             <p className="section-title">
-                Alison Day, <br/>
-                 Psychodynamic Counsellor and Psychotherapist 
-                <br/>(MSc, BA Hons, MBACP)
+                Alison Day, <br />
+                Psychodynamic Counsellor and Psychotherapist
+                <br />(MSc, BA Hons, MBACP)
             </p>
         </>
         )}

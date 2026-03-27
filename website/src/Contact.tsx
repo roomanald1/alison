@@ -20,8 +20,8 @@ export function Contact() {
     }
 
     return (<section id="contact" className='page-section' style={{
-        background: "linear-gradient(180deg, #f1f2f3 0%, #e1e7eeb9 100%)",
-
+        borderTop: "1px solid var(--brand-color)",
+        background: "linear-gradient(180deg, var(--brand-color2) 0%, var(--brand-color4) 100%)",
     }} >
         <div className='container relative'>
             <div className='section-title'>GET IN TOUCH</div>
@@ -46,6 +46,8 @@ export function Contact() {
                         </div>
                     </div>
                 </div>
+
+
             </div>
             <div className='row'>
                 <form className="form contact-form" id="contact_form" ref={form}>
@@ -59,6 +61,10 @@ export function Contact() {
 
                             <div className="form-group">
                                 <input type="email" name="email" id="email" className="input-md round form-control" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$" aria-required="true" />
+                            </div>
+                            <div className="form-group">
+
+                                <a href="https://www.psychologytoday.com/profile/1673762" className="sx-verified-seal"></a>
                             </div>
                         </div>
 
