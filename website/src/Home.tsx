@@ -29,7 +29,7 @@ export function Home() {
                     fontFamily: "Autography",
                     fontWeight: 400
                 }}>
-                   Alison Day
+                    <img style={{maxHeight:150}} src="/logo.png" alt="Alison Day" />
                 </h1>
 
                 <p className="section-title">

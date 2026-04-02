@@ -62,6 +62,8 @@ export function Contact() {
                             <div className="form-group">
                                 <input type="email" name="email" id="email" className="input-md round form-control" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$" aria-required="true" />
                             </div>
+
+                            <img style={{maxHeight:180}} src="/bacp.png" alt="Alison Day" />
                             <div className="form-group">
 
                                 <a href="https://www.psychologytoday.com/profile/1673762" className="sx-verified-seal"></a>
