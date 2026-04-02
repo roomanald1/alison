@@ -23,18 +23,13 @@ export function Home() {
     return (<section>
         {Banner(
             <>
-                <h1 style={{
-                    fontSize: "62px",
-                    margin: 0,
-                    fontFamily: "Autography",
-                    fontWeight: 400
-                }}>
-                    <img style={{maxHeight:150}} src="/logo.png" alt="Alison Day" />
-                </h1>
 
-                <p className="section-title">
+                <img style={{maxHeight:150, marginBottom:10}} src="/logo.png" alt="Alison Day" />
+
+
+                <div className="section-title">
                     Psychotherapy and Counselling in Sevenoaks and Online
-                </p>
+                </div>
             </>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section>

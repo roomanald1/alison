@@ -12,7 +12,7 @@ Primary use: MultiPurpose Template
 @import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
-/* 
+
 @font-face {
   font-family: "Akayla";
   src: url("./akayla-script.scriptpersonaluse.ttf") format("truetype");
@@ -33,7 +33,7 @@ Primary use: MultiPurpose Template
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-} */
+} 
 @font-face {
   font-family: "Autography";
   src: url("./Autography.otf") format("opentype");
@@ -3179,14 +3179,14 @@ ul {
 }
 
 .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
-    line-height: 1.4;
-    color: #6e6e6e;
+    letter-spacing: 0.3em;
+    line-height: 1.2;
+    color: #858383;
 }
 
 .section-more {

@@ -23,8 +23,8 @@ export function Fees() {
 
     return (<section className='page-section'>
         {Banner(            <h1 style={{
-                fontSize: "62px",
-                margin: 0, fontFamily: "Autography",
+                fontSize: "82px",
+                margin: 0, fontFamily: "Bestmoment",
                 fontWeight: 400
             }}>Fees</h1>)}
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
