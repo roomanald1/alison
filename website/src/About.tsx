@@ -1,6 +1,7 @@
 import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
+import { Helmet } from "react-helmet-async";
 
 const md = import.meta.glob<string>('/src/content/about/**/*.md', { as: 'raw' });
 
@@ -21,19 +22,59 @@ export function About() {
         });
     }, []);
 
-    return (<section className='page-section'>
+    return (
 
+        <>
 
-        <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>)} />
-
-        <div className='container relative'>
-
-            <div className="profile">
-                <img src="/headshot.jpg" alt="Alison Day" />
-                <div
-                    dangerouslySetInnerHTML={{ __html: marked(content) }}
+            <Helmet>
+                <title>Alison Day Psychotherapy | Sevenoaks | About </title>
+                <meta
+                    name="description"
+                    content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks offering compassionate, confidential counselling and psychotherapy for adults."
                 />
-            </div>
-        </div>
-    </section>)
+                <meta property="og:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
+                <meta property="og:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks offering compassionate, confidential counselling and psychotherapy for adults." />
+                <meta property="og:url" content="https://alisonday.netlify.app/about" />
+                <meta property="og:type" content="profile" />
+                <meta property="og:image" content="https://alisonday.netlify.app/logo.png" />
+
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
+                <meta name="twitter:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks." />
+                <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
+                <link rel="canonical" href="https://alisonday.netlify.app/" />
+                <script type="application/ld+json">
+                    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alison Day",
+        "jobTitle": "Psychotherapist",
+        "url": "https://alisonday.netlify.app/about",
+        "image": "https://alisonday.netlify.app/logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sevenoaks",
+          "addressCountry": "UK"
+        }
+      }
+    `}
+                </script>
+            </Helmet>
+            <section className='page-section'>
+
+
+                <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>)} />
+
+                <div className='container relative'>
+
+                    <div className="profile">
+                        <img src="/headshot.jpg" alt="Alison Day" />
+                        <div
+                            dangerouslySetInnerHTML={{ __html: marked(content) }}
+                        />
+                    </div>
+                </div>
+            </section>
+        </>)
 }

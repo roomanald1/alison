@@ -30,4 +30,4 @@ Online sessions follow the same structure as in-person work and can offer flexib
 - Busy or changing schedules
 
 ## Next steps  
-If you’re considering therapy, you’re very welcome to get in touch.
+If you’re considering therapy, you’re very welcome to <a href="/contact">get in touch</a>.
