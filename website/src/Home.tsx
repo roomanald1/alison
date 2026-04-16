@@ -20,11 +20,11 @@ export function Home() {
         });
     }, []);
 
-    return (<section>
-           <Banner children={(   <div style={{ display: "block", marginTop: 40}}>
+    return (<section  className='page-section'>
+           <Banner children={(   <div style={{ display: "block" , marginTop:20}}>
                 <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day" />
             </div>)}/>
-        <div className='container' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
+        <div className='container relative'>
             <section>
                 <div
                     dangerouslySetInnerHTML={{ __html: marked(content) }}

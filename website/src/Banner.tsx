@@ -8,8 +8,8 @@ export function Banner({children}: {children: JSX.Element}) {
   flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-      height: "220px",
-      marginBottom: "40px",
+      height: "190px",
+      marginBottom: "20px",
       background: "linear-gradient(90deg, var(--brand-color2) 0%,  var(--brand-color3) 20%,  var(--brand-color4) 70%,   var(--brand-color5) 100%)",
     }}
   >
