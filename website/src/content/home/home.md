@@ -1,4 +1,4 @@
-<div style="text-align: center; margin-bottom: 10px; margin-top:10px; font-size:24px">
+<div class="icon-divider">
   <i class="fi fi-rs-puzzle-piece"></i>
 </div>
 
@@ -12,7 +12,7 @@ Therapy offers a space to slow down and make sense of what’s going on beneath 
 
 I’m **Alison Day**, an MBACP registered psychodynamic psychotherapist offering therapy in Sevenoaks and online across the UK. I work with adults and young people (16+) who feel overwhelmed, anxious, stuck or unsure of themselves, including those navigating parenthood, identity changes, relationship difficulties and life changes. 
 
-<div style="text-align: center; margin-bottom: 10px; margin-top:10px; font-size:24px">
+<div class="icon-divider">
   <i class="fi fi-rr-couch"></i>
 </div>
 
@@ -27,7 +27,7 @@ The people I work with are often experiencing:
   -	Loss, grief, or periods of uncertainty
   -	A sense of “I should be coping better than I am”
 
-<div style="text-align: center; margin-bottom: 10px; margin-top:10px; font-size:24px">
+<div class="icon-divider">
   <i class="fi fi-rr-compass-alt"></i>
 </div>
 
@@ -37,7 +37,7 @@ Therapy with me is about understanding yourself more deeply and discovering the 
 
 My approach is conversational and relational. Sessions move at your pace, creating a space to explore patterns in your behaviour. You don’t need to arrive with the “right” words – we find them together.
 
-<div style="text-align: center; margin-bottom: 10px; margin-top:10px; font-size:24px">
+<div class="icon-divider">
   <i class="fi fi-rr-handshake"></i>
 </div>
 

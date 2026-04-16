@@ -22,13 +22,7 @@ export function ContactPage() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<>
-                        <h1 style={{
-                fontSize: "82px",
-                margin: 0, fontFamily: "Bestmoment",
-                fontWeight: 400
-            }}>Contact</h1>
-        </>
+        {Banner(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>Contact</div>
         )}
         <div className='container relative'>
             <div

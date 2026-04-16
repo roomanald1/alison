@@ -5,7 +5,7 @@ export function Banner(element: JSX.Element) {
     style={{
       position: "relative",
       width: "100vw",
-      height: "360px",
+      height: "220px",
       marginBottom: "40px",
       background: "linear-gradient(90deg, var(--brand-color2) 0%,  var(--brand-color3) 20%,  var(--brand-color4) 70%,   var(--brand-color5) 100%)",
     }}

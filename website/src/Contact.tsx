@@ -65,8 +65,7 @@ export function Contact() {
 
                             <img style={{maxHeight:180}} src="/bacp.png" alt="Alison Day" />
                             <div className="form-group">
-
-                                <a href="https://www.psychologytoday.com/profile/1673762" className="sx-verified-seal"></a>
+                                <PsychologyTodaySeal/>
                             </div>
                         </div>
 
@@ -95,4 +94,32 @@ export function Contact() {
             </div>
         </div>
     </section>)
+}
+
+
+
+import { useEffect } from "react";
+
+export default function PsychologyTodaySeal() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://member.psychologytoday.com/verified-seal.js";
+    script.setAttribute("data-badge", "10");
+    script.setAttribute("data-id", "1673762");
+    script.setAttribute("data-code", "aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE2NzM3NjI/Y2FsbGJhY2s9c3hjYWxsYmFjaw==");
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <a
+      href="https://www.psychologytoday.com/profile/1673762"
+      className="sx-verified-seal"
+    />
+  );
 }

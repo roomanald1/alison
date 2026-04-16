@@ -8,20 +8,20 @@ My background includes work in community services, perinatal support and long-te
 
 ## Areas I specialise in
  
-<div>
+<div class="icon-divider">
     <i class="fi fi-rr-family"></i>
 </div>
 
 #### **Parenthood and family life**
 Pregnancy, birth, and early parenthood can bring complex and sometimes unexpected emotions. You may feel overwhelmed, unsure of yourself, or quietly struggling as your identity shifts and relationships change. I offer a space where these experiences can be explored openly and without judgement.
 
-<div>
+<div class="icon-divider">
     <i class="fi fi-rr-cloud-rain"></i>
 </div>
 
 #### **Anxiety, low mood & emotional overwhelm**
 You might be managing on the outside - work or studying, family and friends, and everyday life - while inside feeling overwhelmed, anxious, overthinking or no longer quite like yourself. Together, we can begin to understand what sits beneath these feelings and how they are shaping your experience.
-<div>
+<div class="icon-divider">
     <i class="fi fi-rr-seedling"></i>
 </div>
 

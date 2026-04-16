@@ -7473,3 +7473,20 @@ section:hover .small-item-carousel .owl-next {
         object-fit: contain;
     }
 }
+
+.icon-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;              /* space between lines and icon */
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.icon-divider::before,
+.icon-divider::after {
+  content: "";
+  flex: 1;                /* lines stretch to fill space */
+  height: 1px;
+  background: #ccc;       /* adjust colour */
+}

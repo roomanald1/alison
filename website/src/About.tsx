@@ -23,16 +23,7 @@ export function About() {
 
     return (<section className='page-section'>
         {Banner(<>
-            <h1 style={{
-                fontSize: "82px",
-                margin: 0, fontFamily: "Bestmoment",
-                fontWeight: 400
-            }}>About Me</h1>
-            <p className="section-title">
-                Alison Day, <br />
-                Psychodynamic Counsellor and Psychotherapist
-                <br />(MSc, BA Hons, MBACP)
-            </p>
+            <div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>
         </>
         )}
         <div className='container relative'>
