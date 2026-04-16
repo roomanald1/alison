@@ -27,7 +27,8 @@ export function BlogPost() {
   }, [slug, date]);
 
   return (      <section className="page-section">
-        <Banner children={(<h1>{slug}</h1>)}/>
+        <Banner/>
+        <h1>{slug}</h1>
         <div className="container relative">
           <div
             dangerouslySetInnerHTML={{ __html: marked(content) }}
