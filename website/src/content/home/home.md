@@ -1,3 +1,8 @@
+      
+<div class="section-title">
+  Psychotherapy and Counselling in Sevenoaks and Online
+</div>
+
 <div class="icon-divider">
   <i class="fi fi-rs-puzzle-piece"></i>
 </div>
