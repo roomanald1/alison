@@ -319,7 +319,11 @@ body {
     --brand-color4: #36ce311c;
     --brand-color5: #31ce464d; 
  */
-
+    line-height: 1.75;
+  background:
+    radial-gradient(circle at 0 0, rgba(0,0,0,0.03), transparent 70%),
+    radial-gradient(circle at 100% 100%, rgba(0,0,0,0.03), transparent 70%),
+    #f9f7f3;
 
     /* WARM CREAMS */
     --brand-color: #ddc59a;  

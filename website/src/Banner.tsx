@@ -1,6 +1,4 @@
-import type { JSX } from "react/jsx-runtime";
-
-export function Banner({children}: {children: JSX.Element}) {
+export function Banner() {
   return (<div
     style={{
       width: "100vw",
@@ -15,7 +13,9 @@ export function Banner({children}: {children: JSX.Element}) {
   >
 
       <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-        {children}
+       <div style={{ display: "block", marginTop: 20 }}>
+                    <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day logo" />
+                </div>
       </div>
   </div>)
 }

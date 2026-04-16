@@ -63,9 +63,7 @@ export function Home() {
             </script>
         </Helmet>
         <section className='page-section'>
-            <Banner children={(<div style={{ display: "block", marginTop: 20 }}>
-                <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day logo" />
-            </div>)} />
+            <Banner />
             <div className='container relative'>
                 <section>
                     <div

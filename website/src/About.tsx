@@ -64,12 +64,18 @@ export function About() {
             <section className='page-section'>
 
 
-                <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>)} />
+                <Banner/>
 
-                <div className='container relative'>
-
+                <div className='container'>
+                    <div className="section-title">
+                        About Me
+                    </div>
+                    <div className="icon-divider">
+                        <i className="fi fi-rr-user"></i>
+                    </div>
                     <div className="profile">
-                        <img src="/headshot.jpg" alt="Alison Day" />
+                        <img src="/headshot.jpg" alt="Alison Day" style={{ borderRadius: 7 }} />
+
                         <div
                             dangerouslySetInnerHTML={{ __html: marked(content) }}
                         />

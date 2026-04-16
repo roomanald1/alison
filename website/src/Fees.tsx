@@ -60,8 +60,15 @@ export function Fees() {
             </Helmet>
             <section className='page-section'>
 
-                <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>Fees</div>)} />
+                <Banner />
+                 <div className="section-title">
+                        Fees
+                    </div>
+                    <div className="icon-divider">
+                        <i className="fi fi-rr-calendar-day"></i>
+                    </div>
                 <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
+                   
                     <section>
                         <div
                             dangerouslySetInnerHTML={{ __html: marked(content) }}
