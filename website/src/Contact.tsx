@@ -63,10 +63,11 @@ export function Contact() {
                                 <input type="email" name="email" id="email" className="input-md round form-control" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$" aria-required="true" />
                             </div>
 
-                            <img style={{maxHeight:180}} src="/bacp.png" alt="Alison Day" />
-                            <div className="form-group">
-                                <PsychologyTodaySeal/>
+                            <div className="form-group seal-row">
+                                <img className="bacp-logo" src="/bacp.png" alt="BACP" />
+                                <div id="pt-seal-mount"></div>
                             </div>
+
                         </div>
 
                         <div className="cf-right-col">
@@ -94,44 +95,4 @@ export function Contact() {
             </div>
         </div>
     </section>)
-}
-
-
-
-import { useEffect, useRef } from "react";
-
-export default function PsychologyTodaySeal() {
-  const containerRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (!containerRef.current) return; // <-- fixes the TS error
-
-    const script = document.createElement("script");
-    script.src = "https://member.psychologytoday.com/verified-seal.js";
-    script.async = true;
-
-    script.setAttribute("data-badge", "10");
-    script.setAttribute("data-id", "1673762");
-    script.setAttribute(
-      "data-code",
-      "aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE2NzM3NjI/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="
-    );
-
-    containerRef.current.appendChild(script);
-
-    return () => {
-      if (containerRef.current?.contains(script)) {
-        containerRef.current.removeChild(script);
-      }
-    };
-  }, []);
-
-  return (
-    <div ref={containerRef}>
-      <a
-        href="https://www.psychologytoday.com/profile/1673762"
-        className="sx-verified-seal"
-      />
-    </div>
-  );
 }

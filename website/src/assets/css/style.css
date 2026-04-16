@@ -7490,3 +7490,22 @@ section:hover .small-item-carousel .owl-next {
   height: 1px;
   background: #ccc;       /* adjust colour */
 }
+
+.seal-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#pt-seal-container {
+  display: inline-block;
+}
+
+#pt-seal-mount {
+  /* This is where we move the seal into React’s layout */
+}
+
+#pt-seal-container {
+  position: absolute;
+  visibility:unset; /* hide original location */
+}
