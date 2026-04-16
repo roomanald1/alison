@@ -1,6 +1,6 @@
 import type { JSX } from "react/jsx-runtime";
 
-export function Banner(element: JSX.Element) {
+export function Banner({children}: {children: JSX.Element}) {
   return (<div
     style={{
       width: "100vw",
@@ -14,6 +14,8 @@ export function Banner(element: JSX.Element) {
     }}
   >
 
-      {element}
+      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+        {children}
+      </div>
   </div>)
 }

@@ -21,10 +21,9 @@ export function Home() {
     }, []);
 
     return (<section>
-        {Banner(
-            <div style={{ display: "block", marginTop: 40 }}>
+           <Banner children={(   <div style={{ display: "block", marginTop: 40}}>
                 <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day" />
-            </div>)}
+            </div>)}/>
         <div className='container' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section>
                 <div

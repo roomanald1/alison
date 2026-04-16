@@ -22,7 +22,9 @@ export function Services() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>How I work</div>)}
+
+        <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>How I work</div>)} />
+
         <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
             <section>
                 <div

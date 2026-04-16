@@ -40,11 +40,11 @@ export function BlogsList(args: { number_of_items: number | "all", is_dark: bool
     }, []);
 
     return (<section id="blog" className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
-        {Banner(            <h1 style={{
+          <Banner children={(   <h1 style={{
                 fontSize: "62px",
                 margin: 0, fontFamily: "Autography",
                 fontWeight: 400
-            }}>Blog</h1>)}
+            }}>Blog</h1>)}/>
         <div className='container relative'>
             {blogs.map((doc) =>
                 <div key={doc.raw_date.toString()} style={{ marginBottom: 10 }}>

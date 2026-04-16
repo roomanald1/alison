@@ -22,10 +22,10 @@ export function About() {
     }, []);
 
     return (<section className='page-section'>
-        {Banner(<>
-            <div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>
-        </>
-        )}
+
+
+        <Banner children={(<div className="section-title" style={{ fontSize: 30, letterSpacing: 1.5, color: "black", fontWeight: 400 }}>About Me</div>)} />
+
         <div className='container relative'>
 
             <div className="profile">
