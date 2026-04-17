@@ -305,6 +305,7 @@ html {
 
 html,
 body {
+    letter-spacing: 0.02em;
     /* PURPLE */
 /*     --brand-color :  #9631ce;
     --brand-color2: #64a19c23;
