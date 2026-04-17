@@ -6,27 +6,26 @@ My background includes work in community services, perinatal support and long-te
 
 <br>
 
+<div class="line-break">
+</div>
+
 ## Areas I specialise in
  
-<div class="icon-divider">
-    <i class="fi fi-rr-family"></i>
-</div>
-
-#### **Parenthood and family life**
+#### <i class="fi fi-rr-family" style="vertical-align:middle; margin-right: 5px"></i> **Parenthood and family life**
 Pregnancy, birth, and early parenthood can bring complex and sometimes unexpected emotions. You may feel overwhelmed, unsure of yourself, or quietly struggling as your identity shifts and relationships change. I offer a space where these experiences can be explored openly and without judgement.
 
-<div class="icon-divider">
-    <i class="fi fi-rr-cloud-rain"></i>
-</div>
 
-#### **Anxiety, low mood & emotional overwhelm**
+#### <i class="fi fi-rr-cloud-rain" style="vertical-align:middle; margin-right: 10px"></i>**Anxiety, low mood & emotional overwhelm**
 You might be managing on the outside - work or studying, family and friends, and everyday life - while inside feeling overwhelmed, anxious, overthinking or no longer quite like yourself. Together, we can begin to understand what sits beneath these feelings and how they are shaping your experience.
-<div class="icon-divider">
-    <i class="fi fi-rr-seedling"></i>
+
+
+#### <i class="fi fi-rr-seedling" style="vertical-align:middle; margin-right: 5px"></i> **Loss, grief and life transitions**
+Loss can take many forms — bereavement, miscarriage, relationship endings or changes, or shifts in your identity or career. These experiences can feel disorienting and difficult to process alone. I offer a space better understand your loss and the impact this has had, helping you to find steadiness again.
+
+<div class="line-break">
 </div>
 
-#### **Loss, grief and life transitions**
-Loss can take many forms — bereavement, miscarriage, relationship endings or changes, or shifts in your identity or career. These experiences can feel disorienting and difficult to process alone. I offer a space better understand your loss and the impact this has had, helping you to find steadiness again.
+<br>
 
 ## My Approach
 
@@ -35,6 +34,9 @@ My work is grounded in curiosity, care, and emotional understanding.
 I pay close attention to your thoughts, feelings, and patterns — including those that are difficult to put into words. Over time, therapy can help you feel more connected to yourself, more able to understand your responses, and more grounded in your life.
 
 Above all, I aim to offer a space where you feel heard, understood, and able to speak freely.
+
+<div class="line-break">
+</div>
 
 ## Training and background
 

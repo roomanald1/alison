@@ -25,6 +25,7 @@ I’m **Alison Day**, an MBACP registered psychodynamic psychotherapist offering
 
 ## Why do people come to therapy?
 The people I work with are often experiencing:
+
   -	Anxiety, low mood or loss of direction
   -	Feeling stuck, lost or disconnected
   -	Relationship changes, strains or family difficulties
