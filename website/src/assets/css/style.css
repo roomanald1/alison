@@ -1882,16 +1882,17 @@ ul {
     list-style-type: disc;
     padding-inline-start: 15px;
     unicode-bidi: isolate;
-    margin: 0 0 1.5em 1.5em !important;
+    margin: 0 0 1.5em 1.5em;
 }
 
 .small-height {
-    height: 55px !important;
+    height: 45px !important;
 }
 
 .small-height .inner-nav ul li a {
-    height: 55px !important;
-    line-height: 55px !important;
+    height: 45px !important;
+    line-height: 45px !important;
+    margin: 0px !important;
 }
 
 .inner-nav {
