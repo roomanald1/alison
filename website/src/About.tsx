@@ -42,7 +42,7 @@ export function About() {
                 <meta name="twitter:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
                 <meta name="twitter:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks." />
                 <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
-                <link rel="canonical" href="https://alisonday.netlify.app/" />
+                <link rel="canonical" href="https://alisonday.netlify.app/about" />
                 <script type="application/ld+json">
                     {`
       {

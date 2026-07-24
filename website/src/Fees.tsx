@@ -41,7 +41,7 @@ export function Fees() {
                 <meta name="twitter:title" content="Therapy Fees | Alison Day Psychotherapy" />
                 <meta name="twitter:description" content="Psychotherapy and counselling fees in Sevenoaks." />
                 <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
-                <link rel="canonical" href="https://alisonday.netlify.app/" />
+                <link rel="canonical" href="https://alisonday.netlify.app/fees" />
                 <script type="application/ld+json">
                     {`
       {

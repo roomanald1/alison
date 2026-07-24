@@ -43,7 +43,7 @@ export function ContactPage() {
                 <meta name="twitter:title" content="Contact Alison Day | Psychotherapy in Sevenoaks" />
                 <meta name="twitter:description" content="Contact Alison Day Psychotherapy to book a session or ask a question." />
                 <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
-                <link rel="canonical" href="https://alisonday.netlify.app/" />
+                <link rel="canonical" href="https://alisonday.netlify.app/contact" />
                 <script type="application/ld+json">
                     {`
       {

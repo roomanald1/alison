@@ -43,7 +43,7 @@ export function Services() {
                 <meta name="twitter:title" content="Psychotherapy & Counselling Services | Alison Day" />
                 <meta name="twitter:description" content="Explore psychotherapy and counselling services in Sevenoaks." />
                 <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
-                <link rel="canonical" href="https://alisonday.netlify.app/" />
+                <link rel="canonical" href="https://alisonday.netlify.app/services" />
                 <script type="application/ld+json">
                     {`
       {
