@@ -1,0 +1,81 @@
+/* Navigation Link Styles */
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  height: 75px;
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Navigation CTA Button */
+.nav-cta {
+  background-color: var(--accent);
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+  margin-left: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-cta:hover {
+  background-color: var(--accent-dark);
+  box-shadow: 0 2px 8px rgba(107, 158, 138, 0.2);
+  transform: translateY(-1px);
+}
+
+/* Sticky nav on scroll - subtle background */
+.main-nav.scrolled {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Mobile menu enhancements */
+.mobile-nav {
+  transition: all 0.3s ease;
+}
+
+.mobile-nav i {
+  color: var(--text-dark);
+  transition: color 0.3s ease;
+}
+
+.mobile-nav:hover i {
+  color: var(--accent);
+}
+
+/* Responsive - Mobile menu styling */
+@media (max-width: 768px) {
+  .nav-link {
+    height: auto;
+    padding: 12px 16px;
+    display: block;
+    border-bottom: none;
+  }
+
+  .nav-link:hover {
+    background-color: var(--bg-light);
+    border-bottom: none;
+  }
+
+  .nav-cta {
+    margin-left: 0;
+    margin-top: 12px;
+    width: 100%;
+    justify-content: center;
+  }
+}

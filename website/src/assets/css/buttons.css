@@ -1,0 +1,62 @@
+/* Button Base Styles */
+.btn {
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+}
+
+/* Primary CTA Button (Sage Green) */
+.btn-cta, 
+.submit_btn {
+  background-color: var(--accent);
+  color: white;
+  box-shadow: 0 2px 8px rgba(107, 158, 138, 0.2);
+}
+
+.btn-cta:hover,
+.submit_btn:hover {
+  background-color: var(--accent-dark);
+  box-shadow: 0 4px 12px rgba(107, 158, 138, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-cta:active,
+.submit_btn:active {
+  transform: translateY(0);
+}
+
+.btn-cta:focus-visible,
+.submit_btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--brand-primary);
+  color: var(--text-dark);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+  background-color: #f0d9a0;
+  box-shadow: var(--shadow-md);
+}
+
+/* Disabled state */
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.btn:disabled:hover {
+  box-shadow: var(--shadow-sm);
+}
