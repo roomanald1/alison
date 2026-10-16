@@ -326,12 +326,12 @@ body {
     radial-gradient(circle at 100% 100%, rgba(0,0,0,0.03), transparent 70%),
     #f9f7f3; */
 
-    /* WARM CREAMS */
-    --brand-color: #ddc59a;  
-    --brand-color2: #f2e9d89f;  
-    --brand-color3: #e9ddc7da;  
-    --brand-color4: #f5e7cf8e;  
-    --brand-color5: #e7d8be;   
+    /* MUTED SAGE BRAND PALETTE */
+    --brand-color: #8ea596;
+    --brand-color2: #e8efea;
+    --brand-color3: #edf2ed;
+    --brand-color4: #f3f6f2;
+    --brand-color5: #e3ebe5;
 
 
 
