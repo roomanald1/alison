@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
@@ -61,12 +61,12 @@ export function About() {
     `}
                 </script>
             </Helmet>
-            <section className='page-section'>
+            <section className='page-section content-page about-page'>
 
 
                 <Banner/>
 
-                <div className='container'>
+                <div className='container content-card'>
                     <div className="section-title">
                         About Me
                     </div>
@@ -74,7 +74,9 @@ export function About() {
                         <i className="fi fi-rr-user"></i>
                     </div>
                     <div className="profile">
-                        <img src="/headshot.jpg" alt="Alison Day" style={{ borderRadius: 7 }} />
+                        <div className="profile-visual">
+                            <img className="profile-portrait" src="/headshot.jpg" alt="Alison Day" />
+                        </div>
 
                         <div
                             dangerouslySetInnerHTML={{ __html: marked(content) }}

@@ -1,7 +1,10 @@
-## Session fees 
+## Session fees
 
-**Initial consultation:**  in person £90 (Sevenoaks) • Online £75 (online) for 75-minutes.  
-**Ongoing sessions:**  in person £60 (Sevenoaks) • Online £50 (online) for 50-minutes.
+| Session | In person (Sevenoaks) | Online |
+|:--|--:|--:|
+| Initial consultation (75 minutes) | &pound;90 | &pound;75 |
+| Ongoing session (50 minutes) | &pound;60 | &pound;50 |
+
 
 I offer weekly sessions, either:
 - In person in Sevenoaks (TN13)
@@ -18,7 +21,9 @@ I offer a free 15-minute video call.
 This is a chance to talk briefly about what’s bringing you to therapy, ask any questions, and get a sense of whether working together feels right.  
 There is no obligation to continue.
 
-## In-person therapy  
+## In-person therapy
+
+<img class="fees-room-photo" src="/therapy-room.png" alt="The counselling room in Sevenoaks" />
 In person sessions take place in a purpose built counselling space in Sevenoaks, Kent. There is nearby car parking, as well as being close to main bus routes and a five-minute walk from Bat and Ball train station.   
 The space is private and contained, offering a calm environment to explore whatever feels important.
 

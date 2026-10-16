@@ -80,22 +80,14 @@ export function Services() {
     `}
                 </script>
             </Helmet>
-            <section className='page-section'>
+            <section className='page-section content-page work-page'>
 
                 <Banner />
-                <div className="section-title">
-                    How I work
-                </div>
-                <div className="icon-divider">
-                    <i className="fi fi-rr-couch"></i>
-                </div>
-                <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-
-                    <section>
-
-                        <div
-                            dangerouslySetInnerHTML={{ __html: marked(content) }}
-                        />
+                <div className='container relative content-card'>
+                    <div className="section-title">How I work</div>
+                    <div className="icon-divider"><i className="fi fi-rr-couch"></i></div>
+                    <section className='page-copy'>
+                        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
                     </section>
                 </div>
             </section>

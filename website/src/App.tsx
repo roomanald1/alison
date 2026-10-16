@@ -1,15 +1,14 @@
 
 import './assets/css/style-responsive.css'
 import './assets/css/bootstrap.min.css'
-import './assets/css/font-awesome.min.css'
 import './assets/css/vertical-rhythm.min.css'
 import './assets/css/style.css'
 import './assets/css/magnific-popup.css'
 import './assets/css/theme-variables.css'
-import './assets/css/style.css'
 import './assets/css/buttons.css'
 import './assets/css/forms.css'
 import './assets/css/navigation.css'
+import './assets/css/site-polish.css'
 
 import { Navigation } from './Navigation'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -37,7 +36,7 @@ function App() {
             <Route path="/about" element={with_contact(<About />)} />
             <Route path="/services" element={with_contact(<Services />)} />
             <Route path="/fees" element={with_contact(<Fees />)} />
-            <Route path="/contact" element={with_contact(<ContactPage/>)} />
+            <Route path="/contact" element={with_contact(<ContactPage />)} />
           </Routes>
         </BrowserRouter>
       </main>

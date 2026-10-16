@@ -4,11 +4,6 @@ I’m an MBACP-registered psychodynamic psychotherapist with experience supporti
 
 My background includes work in community services, perinatal support and long-term psychodynamic therapy. Before training as a therapist, I worked in roles that centred on emotional understanding, communication and supporting people through complex experiences, foundations that continue to shape my therapeutic work.
 
-<br>
-
-<div class="line-break">
-</div>
-
 ## Areas I specialise in
  
 #### <i class="fi fi-rr-family" style="vertical-align:middle; margin-right: 5px"></i> **Parenthood and family life**
@@ -20,28 +15,19 @@ You might be managing on the outside - work or studying, family and friends, and
 
 
 #### <i class="fi fi-rr-seedling" style="vertical-align:middle; margin-right: 5px"></i> **Loss, grief and life transitions**
-Loss can take many forms — bereavement, miscarriage, relationship endings or changes, or shifts in your identity or career. These experiences can feel disorienting and difficult to process alone. I offer a space better understand your loss and the impact this has had, helping you to find steadiness again.
-
-<div class="line-break">
-</div>
-
-<br>
+Loss can take many forms — bereavement, miscarriage, relationship endings or changes, or shifts in your identity or career. These experiences can feel disorienting and difficult to process alone. I offer a space to better understand your loss and the impact this has had, helping you to find steadiness again.
 
 ## My Approach
 
 My work is grounded in curiosity, care, and emotional understanding.
 
+
 I pay close attention to your thoughts, feelings, and patterns — including those that are difficult to put into words. Over time, therapy can help you feel more connected to yourself, more able to understand your responses, and more grounded in your life.
 
 Above all, I aim to offer a space where you feel heard, understood, and able to speak freely.
-
-<div class="line-break">
-</div>
 
 ## Training and background
 
 I hold an MSc in Psychodynamic Psychotherapy and Counselling from Birkbeck, University of London, and a BA (Hons) in Sociology from University of Sheffield.
 
 My background includes work in community settings and perinatal support, alongside ongoing professional development. I am a registered member of the BACP and work in accordance with their ethical framework.
-
-

@@ -63,14 +63,23 @@ export function Home() {
     `}
             </script>
         </Helmet>
-        <section className='page-section'>
+        <section className='page-section home-page'>
             <Banner />
-            <div className='container relative'>
-                <section>
-                    <div
-                        dangerouslySetInnerHTML={{ __html: marked(content) }}
-                    />
-                </section>
+            <div className='container relative home-container'>
+                <div className='home-layout'>
+                    <section className='home-hero'>
+                        <div className='home-hero-copy'>
+                            <p className='home-eyebrow'>Psychodynamic psychotherapy</p>
+                            <h1>Psychotherapy and Counselling</h1>
+                            <p className='home-hero-location'>In Sevenoaks and online</p>
+                            <a className='home-cta' href='/contact'>Arrange a free 15-minute call <span aria-hidden='true'>&#8594;</span></a>
+                        </div>
+                        <img className='home-portrait' src='/headshot.jpg' alt='Alison Day, psychotherapist' />
+                    </section>
+                    <section className='home-copy'>
+                        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
+                    </section>
+                </div>
             </div>
         </section>
     </>)

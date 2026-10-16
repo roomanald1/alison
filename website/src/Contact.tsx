@@ -80,7 +80,7 @@ export function Contact() {
 
                         <div className="cf-left-col">
                             <div className="form-tip pt-20">
-                                <i className="fa fa-info-circle" aria-hidden="true"></i> All the fields are required
+                                <span className="form-info-icon" aria-hidden="true">i</span> All the fields are required
                             </div>
                         </div>
                         <div className="cf-right-col">

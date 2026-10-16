@@ -1,12 +1,3 @@
-      
-<div class="section-title">
-  Psychotherapy and Counselling in Sevenoaks and Online
-</div>
-
-<div class="icon-divider">
-  <i class="fi fi-rs-puzzle-piece"></i>
-</div>
-
 Many people seek therapy when **something inside feels unsettled, overwhelming or difficult to understand**. You might be holding everything together on the outside - managing work or studies, family, friends and daily life - while inside feeling **overwhelmed, anxious, or not quite like yourself anymore**.
 
 Perhaps you’ve found yourself feeling more **irritable, emotionally drained**, or **disconnected** from yourself, from others, or from the life you expected to be living. 
@@ -20,8 +11,6 @@ I’m **Alison Day**, an MBACP registered psychodynamic psychotherapist offering
 <div class="icon-divider">
   <i class="fi fi-rr-couch"></i>
 </div>
-
-
 
 ## Why do people come to therapy?
 The people I work with are often experiencing:
@@ -37,8 +26,9 @@ The people I work with are often experiencing:
   <i class="fi fi-rr-compass-alt"></i>
 </div>
 
-
 ## How I work
+
+<div class="home-room-feature"><img src="/therapy-room.png" alt="A welcoming therapy room with two armchairs and a small table" /></div>
 Therapy with me is about understanding yourself more deeply and discovering the root cause of your concerns so that things can begin to shift in a way that feels meaningful and has a long-lasting impact.
 
 My approach is conversational and relational. Sessions move at your pace, creating a space to explore patterns in your behaviour. You don’t need to arrive with the “right” words – we find them together.
@@ -51,3 +41,5 @@ My approach is conversational and relational. Sessions move at your pace, creati
 If you’re considering therapy, you’re very welcome to get in touch.
 
 I offer a free 15-minute call to help you get a sense of whether working together feels right. Fill in the contact details below and I will get back to you within 48 hours.
+
+<a class="home-cta" href="/contact">Arrange a free 15-minute call <span aria-hidden="true">&#8594;</span></a>

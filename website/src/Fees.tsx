@@ -58,21 +58,14 @@ export function Fees() {
     `}
                 </script>
             </Helmet>
-            <section className='page-section'>
+            <section className='page-section content-page fees-page'>
 
                 <Banner />
-                 <div className="section-title">
-                        Fees
-                    </div>
-                    <div className="icon-divider">
-                        <i className="fi fi-rr-calendar-day"></i>
-                    </div>
-                <div className='container relative' style={{ display: "flex", flexDirection: "column", placeItems: 'center' }}>
-                   
-                    <section>
-                        <div
-                            dangerouslySetInnerHTML={{ __html: marked(content) }}
-                        />
+                <div className='container relative content-card'>
+                    <div className="section-title">Fees</div>
+                    <div className="icon-divider"><i className="fi fi-rr-calendar-day"></i></div>
+                    <section className='page-copy'>
+                        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
                     </section>
                 </div>
             </section></>)

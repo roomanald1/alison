@@ -61,19 +61,17 @@ export function ContactPage() {
     `}
                 </script>
             </Helmet>
-            <section className='page-section'>
+            <section className='page-section content-page contact-page'>
                 <Banner />
 
-                <div className='container relative'>
+                <div className='container relative content-card'>
                     <div className="section-title">
                         Contact
                     </div>
                     <div className="icon-divider">
                         <i className="fi fi-rr-phone-flip"></i>
                     </div>
-                    <div
-                        dangerouslySetInnerHTML={{ __html: marked(content) }}
-                    />
+                    <div className="page-copy" dangerouslySetInnerHTML={{ __html: marked(content) }} />
                 </div>
             </section>
         </>)

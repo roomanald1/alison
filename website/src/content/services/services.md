@@ -4,18 +4,23 @@ My approach is psychodynamic, meaning we pay attention not only to what’s happ
 
 You don’t need to arrive with a clear story or the “right” words. We can find the language together.
 
+<figure class="service-room-feature">
+  <img src="/therapy-room.png" alt="The calm, welcoming therapy room in Sevenoaks" />
+  <figcaption><strong>A calm space to talk</strong><span>In-person sessions in Sevenoaks, with online therapy also available.</span></figcaption>
+</figure>
+
 ## What to expect
 - A free 15-minute introductory call
 - An initial 75-minute consultation
 - Ongoing weekly 50-minute therapy sessions (in-person or online)  
 
 ##### We can work:
-- **Short-term**, focusing on a specific difficulty
-- **Longer-term**, allowing for deeper exploration
+- **Short-term** focusing on a specific difficulty
+- **Longer-term** allowing for deeper exploration
 
 ## Taking the first step
 
 Beginning therapy can feel like a big step.
 
 If you’re considering it, you’re very welcome to get in touch using the contact details below for an initial conversation.  
-I aim to respond to all requests within 48-hours.
+I aim to respond to all requests within 48 hours.
