@@ -6,9 +6,10 @@
   --brand-color3: #edf2ed;
   --brand-color4: #f3f6f2;
   --brand-color5: #e3ebe5;
-  --accent: #668878;
-  --accent-dark: #4f7162;
+  --accent: #76516b;
+  --accent-dark: #624256;
   --accent-light: #8eaa98;
+  --heading-accent: #76516b;
   --text-dark: #303b35;
   --text-gray: #626b65;
   --text-light: #858d87;
@@ -780,4 +781,78 @@ body {
   --brand-color4: #f3f6f2;
   --brand-color5: #e3ebe5;
 }
-.main-nav { border-bottom-color: var(--accent-light); }
+.main-nav { border-bottom-color: var(--accent-dark); }
+
+.fees-map-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 20px 0 4px;
+  overflow: hidden;
+  border: 1px solid rgba(102, 136, 120, .2);
+  border-radius: 12px;
+  background: #edf2ed;
+}
+.fees-map-embed iframe { display: block; width: 100%; height: 100%; border: 0; }
+@media (max-width: 767px) {
+  .fees-map-embed { aspect-ratio: 4 / 3; }
+}
+
+
+.about-page .profile .specialisms-note {
+  margin: 12px 0 22px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text-dark);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Add a deeper, clearer accent to section headings while keeping sage as the primary brand colour. */
+.page-section h2,
+.content-page .content-card h2,
+.content-page .content-card h3,
+.content-page .content-card h4,
+.content-page .content-card > .section-title,
+.home-copy > div > h2,
+.about-page .profile h2,
+.about-page .profile h4,
+.work-page .page-copy > div > h5,
+#contact .section-title {
+  color: var(--heading-accent);
+}
+
+/* Keep the verification seal in normal flow so it cannot cover the required-fields note. */
+#contact .seal-row { gap: 14px; }
+#contact #pt-seal-container {
+  position: static !important;
+  display: inline-block;
+  visibility: visible !important;
+}
+#contact .form-tip {
+  position: relative;
+  clear: both;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  /* The About summary repeats details available on its own page. */
+  .home-copy > div > h2:nth-of-type(3),
+  .home-copy > div > h2:nth-of-type(3) + p,
+  .home-copy > div > h2:nth-of-type(3) + p + p { display: none; }
+
+  /* Keep the homepage topic list concise on small screens. */
+  .home-copy > div > h2:first-of-type + p + ul > li:nth-child(n + 5) { display: none; }
+
+  /* The dedicated How I Work page carries the session-style detail. */
+  .home-copy > div > h2:nth-of-type(2) + .home-room-feature + p { display: none; }
+}
+
+
+/* Softer letterforms for interior page titles such as About Me and Fees. */
+.content-page .content-card > .section-title {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: .035em;
+}

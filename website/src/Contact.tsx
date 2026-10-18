@@ -6,7 +6,7 @@ export function Contact() {
 
     const [contactResult, setContactResult] = React.useState<{ success: boolean, message: string | undefined } | undefined>(undefined);
 
-    const onClick = (e: React.FormEvent) => {
+    const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (form.current) {
             emailjs.sendForm('service_zqdaf8t', 'template_fkgktde', form.current, 'q5OrP3w__HT0d1qpI').then(() => {
@@ -50,17 +50,19 @@ export function Contact() {
 
             </div>
             <div className='row'>
-                <form className="form contact-form" id="contact_form" ref={form}>
+                <form className="form contact-form" id="contact_form" ref={form} onSubmit={onSubmit}>
                     <div className="clearfix">
 
                         <div className="cf-left-col">
 
                             <div className="form-group">
-                                <input type="text" name="name" id="name" className="input-md round form-control" placeholder="Name" pattern="^[A-Za-z][A-Za-z\s'-]{1,99}$" aria-required="true" />
+                                <label className="form-label" htmlFor="name">Name</label>
+                                <input type="text" name="name" id="name" className="input-md round form-control" placeholder="Your name" pattern="^[A-Za-z][A-Za-z\s'-]{1,99}$" aria-required="true" required />
                             </div>
 
                             <div className="form-group">
-                                <input type="email" name="email" id="email" className="input-md round form-control" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$" aria-required="true" />
+                                <label className="form-label" htmlFor="email">Email</label>
+                                <input type="email" name="email" id="email" className="input-md round form-control" placeholder="Your email address" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$" aria-required="true" required />
                             </div>
 
                             <div className="form-group seal-row">
@@ -72,7 +74,8 @@ export function Contact() {
 
                         <div className="cf-right-col">
                             <div className="form-group">
-                                <textarea name="message" id="message" className="input-md round form-control" style={{ minHeight: 250 }} placeholder="Message"></textarea>
+                                <label className="form-label" htmlFor="message">Message</label>
+                                <textarea name="message" id="message" className="input-md round form-control" style={{ minHeight: 250 }} placeholder="Write your message" aria-required="true" required></textarea>
                             </div>
                         </div>
                     </div>
@@ -85,7 +88,7 @@ export function Contact() {
                         </div>
                         <div className="cf-right-col">
                             <div className="align-right pt-10">
-                                <button className="submit_btn btn-w btn-mod btn-medium btn-round" id="submit_btn" aria-controls="result" onClick={onClick}>Submit Message</button>
+                                <button type="submit" className="submit_btn btn-w btn-mod btn-medium btn-round" id="submit_btn" aria-controls="result">Submit Message</button>
                             </div>
                         </div>
                     </div>

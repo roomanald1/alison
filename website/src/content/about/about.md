@@ -15,10 +15,10 @@ My background includes work in community services, perinatal support and long-te
  
 #### <i class="fi fi-rr-family" style="vertical-align:middle; margin-right: 5px"></i>**Parenthood and identity changes**
 #### <i class="fi fi-rr-cloud-rain" style="vertical-align:middle; margin-right: 10px"></i>**Loss, grief and life transitions**
-#### <i class="fi fi-rr-cloud-rain" style="vertical-align:middle; margin-right: 10px"></i>**Relationship difficulties and family dynamics**
+#### <i class="fi fi-rr-people-network-partner" style="vertical-align:middle; margin-right: 10px"></i>**Relationship difficulties and family dynamics**
 #### <i class="fi fi-rr-seedling" style="vertical-align:middle; margin-right: 5px"></i>**Anxiety, low mood & emotional overwhelm**
 
-While these are common themes, you don't need to fit into a particular category to benefit from therapy.
+<p class="specialisms-note">While these are common themes, you don't need to fit into a particular category to benefit from therapy.</p>
 
 ## Training and background
 
