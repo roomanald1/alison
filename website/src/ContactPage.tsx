@@ -37,12 +37,12 @@ export function ContactPage() {
                 <meta property="og:description" content="Get in touch with Alison Day Psychotherapy in Sevenoaks to book an appointment or ask a question." />
                 <meta property="og:url" content="https://alisonday.netlify.app/contact" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://alisonday.netlify.app/logo.png" />
+                <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
 
-                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Contact Alison Day | Psychotherapy in Sevenoaks" />
                 <meta name="twitter:description" content="Contact Alison Day Psychotherapy to book a session or ask a question." />
-                <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
+                <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
                 <link rel="canonical" href="https://alisonday.netlify.app/contact" />
                 <script type="application/ld+json">
                     {`
@@ -53,7 +53,7 @@ export function ContactPage() {
         "url": "https://alisonday.netlify.app/contact",
         "description": "Contact Alison Day Psychotherapy in Sevenoaks to book an appointment or ask a question.",
         "about": {
-          "@type": "MedicalBusiness",
+          "@type": "ProfessionalService",
           "name": "Alison Day Psychotherapy",
           "url": "https://alisonday.netlify.app/"
         }
@@ -65,9 +65,9 @@ export function ContactPage() {
                 <Banner />
 
                 <div className='container relative content-card'>
-                    <div className="section-title">
+                    <h1 className="section-title">
                         Contact
-                    </div>
+                    </h1>
                     <div className="icon-divider">
                         <i className="fi fi-rr-phone-flip"></i>
                     </div>

@@ -35,30 +35,27 @@ export function Home() {
             <meta property="og:description" content="Professional psychotherapy and counselling in Sevenoaks with Alison Day. Support for anxiety, depression, relationships, and personal growth." />
             <meta property="og:url" content="https://alisonday.netlify.app/" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://alisonday.netlify.app/logo.png" />
+            <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
 
             {/* Twitter */}
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Alison Day Psychotherapy | Counselling & Psychotherapy in Sevenoaks" />
             <meta name="twitter:description" content="Professional psychotherapy and counselling in Sevenoaks with Alison Day." />
-            <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
+            <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
             <link rel="canonical" href="https://alisonday.netlify.app/" />
             <script type="application/ld+json">
                 {`
       {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
+        "@type": "ProfessionalService",
         "name": "Alison Day Psychotherapy",
         "description": "Psychotherapy and counselling services for adults in Sevenoaks.",
         "url": "https://alisonday.netlify.app/",
-        "image": "https://alisonday.netlify.app/logo.png",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Sevenoaks",
-          "addressCountry": "UK"
-        },
-        "areaServed": "Sevenoaks",
-        "sameAs": []
+        "image": "https://alisonday.netlify.app/headshot.jpg",
+        "telephone": "+44 7445 316482",
+        "priceRange": "£50–£90",
+        "areaServed": ["Sevenoaks", "United Kingdom"],
+        "sameAs": ["https://www.psychologytoday.com/profile/1673762"]
       }
     `}
             </script>

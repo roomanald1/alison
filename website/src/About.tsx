@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
@@ -36,12 +36,12 @@ export function About() {
                 <meta property="og:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks offering compassionate, confidential counselling and psychotherapy for adults." />
                 <meta property="og:url" content="https://alisonday.netlify.app/about" />
                 <meta property="og:type" content="profile" />
-                <meta property="og:image" content="https://alisonday.netlify.app/logo.png" />
+                <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
 
-                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
                 <meta name="twitter:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks." />
-                <meta name="twitter:image" content="https://alisonday.netlify.app/logo.png" />
+                <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
                 <link rel="canonical" href="https://alisonday.netlify.app/about" />
                 <script type="application/ld+json">
                     {`
@@ -51,12 +51,9 @@ export function About() {
         "name": "Alison Day",
         "jobTitle": "Psychotherapist",
         "url": "https://alisonday.netlify.app/about",
-        "image": "https://alisonday.netlify.app/logo.png",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Sevenoaks",
-          "addressCountry": "UK"
-        }
+        "image": "https://alisonday.netlify.app/headshot.jpg",
+        "knowsAbout": ["Psychodynamic psychotherapy", "Anxiety", "Relationships", "Parenthood", "Grief and loss"],
+        "areaServed": ["Sevenoaks", "United Kingdom"]
       }
     `}
                 </script>
@@ -67,9 +64,9 @@ export function About() {
                 <Banner/>
 
                 <div className='container content-card'>
-                    <div className="section-title">
+                    <h1 className="section-title">
                         About Me
-                    </div>
+                    </h1>
                     <div className="icon-divider">
                         <i className="fi fi-rr-user"></i>
                     </div>
