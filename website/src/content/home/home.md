@@ -1,4 +1,4 @@
-﻿When life feels overwhelming, confusing, or difficult to navigate alone, therapy can provide a space to pause, reflect, and understand yourself more deeply.
+When life feels overwhelming, confusing, or difficult to navigate alone, therapy can provide a space to pause, reflect, and understand yourself more deeply.
 
 I work with adults and young people (16+) experiencing anxiety, relationship difficulties, life transitions, loss, low mood, and the challenges of parenthood.
 

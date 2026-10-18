@@ -862,3 +862,64 @@ body {
   font-weight: 400;
   letter-spacing: .035em;
 }
+
+/* Slightly tighter mobile rhythm so more page content fits without feeling cramped. */
+@media (max-width: 767px) {
+  /* The mobile nav stays in normal flow, so it does not need the desktop content offset. */
+  #main { padding-top: 0; }
+  body { font-size: 15px; line-height: 1.65; }
+  .page-section { padding: 38px 0; }
+  .page-section .container { padding-left: 18px; padding-right: 18px; }
+  .page-section p { margin-bottom: 1em; }
+
+  .home-hero { gap: 16px; padding: 22px 18px; }
+  .home-hero-location { margin: 12px 0 18px; font-size: 1rem; }
+  .home-cta { white-space: nowrap; }
+  .home-copy { margin-top: 14px; padding: 22px 18px; }
+  .home-copy > div > h2 { margin-top: 30px; }
+  .home-copy > div > p { font-size: .96rem; line-height: 1.65; }
+
+  .content-page .content-card { margin-top: 14px; padding: 24px 18px; }
+  .content-page .content-card > .section-title {
+    margin-bottom: 20px;
+    font-size: clamp(1.65rem, 6.5vw, 2rem);
+  }
+  .content-page .content-card h2 {
+    margin-top: 26px;
+    margin-bottom: 12px;
+    padding-top: 14px;
+    font-size: 1.28rem;
+  }
+  .content-page .content-card p,
+  .content-page .content-card li { font-size: .95rem; line-height: 1.65; }
+
+  #contact.page-section { padding: 38px 0; }
+  #contact .section-title { margin-bottom: 26px; }
+  .service-room-feature { margin: 20px 0 26px; }
+}
+
+@media (max-width: 380px) {
+  .home-cta { gap: 6px; padding: 10px 11px; font-size: .72rem; }
+}
+
+/* On narrow screens, put the hero call button below the copy and portrait so its label has room. */
+@media (max-width: 767px) {
+  .home-hero {
+    grid-template-areas:
+      "eyebrow portrait"
+      "title portrait"
+      "location portrait"
+      "cta cta";
+    align-items: center;
+  }
+  .home-hero-copy { display: contents; }
+  .home-hero .home-eyebrow { grid-area: eyebrow; margin-bottom: 8px !important; }
+  .home-hero h1 { grid-area: title; }
+  .home-hero .home-hero-location { grid-area: location; margin: 8px 0 12px; }
+  .home-hero .home-portrait { grid-area: portrait; }
+  .home-hero .home-cta { grid-area: cta; justify-self: start; margin-top: 0; white-space: nowrap; }
+  .about-page .profile img {
+    float: none;
+    margin: 0 auto 18px;
+  }
+}
