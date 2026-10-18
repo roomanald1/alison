@@ -501,7 +501,7 @@ body {
   border-radius: 0 10px 10px 0;
 }
 @media (max-width: 767px) {
-  .about-page .profile-visual { float: none; width: min(100%, 230px); margin: 0 0 24px; }
+  .about-page .profile-visual { float: none; width: min(100%, 230px); margin: 0 auto 24px; }
 }
 
 
@@ -651,6 +651,11 @@ body {
 }
 @media (max-width: 767px) {
   .work-page .page-copy > div > h5 + ul { grid-template-columns: 1fr; gap: 10px; }
+}
+
+.work-page .page-copy > div > h2:last-of-type + p + ul {
+  padding: 0;
+  background: transparent;
 }
 
 
@@ -865,10 +870,10 @@ body {
 
 /* Slightly tighter mobile rhythm so more page content fits without feeling cramped. */
 @media (max-width: 767px) {
-  /* The mobile nav stays in normal flow, so it does not need the desktop content offset. */
-  #main { padding-top: 0; }
+  /* Offset the fixed 45px mobile nav, then start each banner directly beneath it. */
+  #main { padding-top: 45px; }
   body { font-size: 15px; line-height: 1.65; }
-  .page-section { padding: 38px 0; }
+  .page-section { padding: 0 0 38px; }
   .page-section .container { padding-left: 18px; padding-right: 18px; }
   .page-section p { margin-bottom: 1em; }
 
@@ -918,8 +923,4 @@ body {
   .home-hero .home-hero-location { grid-area: location; margin: 8px 0 12px; }
   .home-hero .home-portrait { grid-area: portrait; }
   .home-hero .home-cta { grid-area: cta; justify-self: start; margin-top: 0; white-space: nowrap; }
-  .about-page .profile img {
-    float: none;
-    margin: 0 auto 18px;
-  }
 }
