@@ -1,26 +1,21 @@
-Many people seek therapy when **something inside feels unsettled, overwhelming or difficult to understand**. You might be holding everything together on the outside - managing work or studies, family, friends and daily life - while inside feeling **overwhelmed, anxious, or not quite like yourself anymore**.
+﻿When life feels overwhelming, confusing, or difficult to navigate alone, therapy can provide a space to pause, reflect, and understand yourself more deeply.
 
-Perhaps you’ve found yourself feeling more **irritable, emotionally drained**, or **disconnected** from yourself, from others, or from the life you expected to be living. 
-
-These experiences can feel **confusing**, especially when you think you should be coping better than you are.
-
-Therapy offers a space to slow down and make sense of what’s going on beneath the surface.
-
-I’m **Alison Day**, an MBACP registered psychodynamic psychotherapist offering therapy in Sevenoaks and online across the UK. I work with adults and young people (16+) who feel overwhelmed, anxious, stuck or unsure of themselves, including those navigating parenthood, identity changes, relationship difficulties and life changes. 
+I work with adults and young people (16+) experiencing anxiety, relationship difficulties, life transitions, loss, low mood, and the challenges of parenthood.
 
 <div class="icon-divider">
   <i class="fi fi-rr-couch"></i>
 </div>
 
 ## Why do people come to therapy?
-The people I work with are often experiencing:
 
-  -	Anxiety, low mood or loss of direction
-  -	Feeling stuck, lost or disconnected
-  -	Relationship changes, strains or family difficulties
-  -	The impact of parenthood or changes in identity
-  -	Loss, grief, or periods of uncertainty
-  -	A sense of “I should be coping better than I am”
+You might be:
+- Feeling anxious, overwhelmed or emotionally exhausted
+- Struggling with relationships or family dynamics
+- Navigating parenthood or changes in identity
+- Experiencing grief, loss or uncertainty
+- Feeling stuck in patterns that keep repeating
+- Wondering why life feels harder than it should
+- Wanting to better understand yourself and your emotions
 
 <div class="icon-divider">
   <i class="fi fi-rr-compass-alt"></i>
@@ -29,9 +24,14 @@ The people I work with are often experiencing:
 ## How I work
 
 <div class="home-room-feature"><img src="/therapy-room.png" alt="A welcoming therapy room with two armchairs and a small table" /></div>
-Therapy with me is about understanding yourself more deeply and discovering the root cause of your concerns so that things can begin to shift in a way that feels meaningful and has a long-lasting impact.
+As a psychodynamic psychotherapist, I help people explore the deeper patterns shaping their thoughts, feelings, and relationships. Together, we make sense of what's happening beneath the surface so that meaningful and lasting change becomes possible.
+Sessions are conversational, collaborative, and led by your pace. You don’t need to arrive with the “right” words – we find them together.
 
-My approach is conversational and relational. Sessions move at your pace, creating a space to explore patterns in your behaviour. You don’t need to arrive with the “right” words – we find them together.
+## About Me
+
+I'm Alison Day, an MBACP-registered psychodynamic psychotherapist offering therapy in Sevenoaks and online throughout the UK.
+I provide a warm, thoughtful, and non-judgemental space where you can explore whatever feels important.
+
 
 <div class="icon-divider">
   <i class="fi fi-rr-handshake"></i>

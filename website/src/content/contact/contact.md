@@ -1,3 +1,7 @@
-You’re welcome to get in touch to arrange a free 15-minute introductory call. You can <a href="mailto:alisondaypsychotherapy@gmail.com">email me directly</a> or use the form below.
+Taking the first step towards therapy can feel daunting. Whether this is your first experience of therapy or you're looking for a new therapist, you're very welcome to get in touch.
 
-I aim to reply within 48 hours.
+I offer a free 15-minute introductory call, giving you the opportunity to ask questions and decide whether working together feels right for you.
+
+You can complete the contact form below or email me directly.
+
+I aim to respond to all enquiries within 48 hours.

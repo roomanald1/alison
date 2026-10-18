@@ -181,16 +181,7 @@ body {
 }
 .home-copy > div { position: relative; counter-reset: home-section; }
 .home-copy > div > .section-title, .home-copy > div > .icon-divider { display: none; }
-.home-copy > div > p:first-of-type {
-  max-width: 760px;
-  margin-bottom: 28px;
-  padding: 20px 24px;
-  border-left: 3px solid var(--accent);
-  border-radius: 0 10px 10px 0;
-  background: #f3f6f1;
-  color: #465b50;
-  font-size: clamp(1.05rem, 1.7vw, 1.25rem);
-}
+
 .home-copy > div > p, .home-copy > div > h2 { max-width: 760px; }
 .home-copy > div > h2 {
   margin: 52px 0 18px;
@@ -289,7 +280,6 @@ body {
 .about-page .profile h4 i { margin-right: 8px; color: var(--accent-dark); }
 
 /* Emphasise the actual pricing and next steps. */
-.fees-page .page-copy > div > h2:first-child + p strong { color: var(--accent-dark); }
 .fees-page .page-copy > div > ul {
   padding: 18px 24px 18px 44px;
   border-radius: 12px;
@@ -327,7 +317,6 @@ body {
   .home-portrait { width: 112px; aspect-ratio: 2 / 3; }
   .home-cta { gap: 8px; padding: 11px 13px; font-size: .78rem; }
   .home-copy { margin-top: 18px; padding: 28px 22px; border-radius: 14px; }
-  .home-copy > div > p:first-of-type { padding: 16px 18px; }
   .home-copy > div > h2 { margin-top: 38px; }
   .home-room-feature { float: none; width: 100%; max-width: 440px; margin: 8px auto 22px; }
   .content-page { padding: 0 0 48px; }
@@ -386,7 +375,7 @@ body {
 .fees-page .page-copy td { padding: 15px 18px; border-top: 1px solid rgba(102, 136, 120, .12); text-align: left; }
 .fees-page .page-copy td:not(:first-child) { color: var(--accent-dark); font-weight: 700; white-space: nowrap; }
 .fees-page .page-copy tr:nth-child(even) td { background: #faf9f5; }
-.contact-page .content-card > div:last-child > p:first-child { padding: 22px 24px; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: #f3f6f1; color: #465b50; font-size: 1.08rem; }
+
 @media (max-width: 767px) {
   .work-page .page-copy > div > h2:first-of-type + ul { grid-template-columns: 1fr; }
   .work-page .page-copy > div > h2:first-of-type + ul li { min-height: 0; }
@@ -467,12 +456,7 @@ body {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
   line-height: 1.7;
 }
-.fees-page .page-copy > div > h2 + p {
-  padding: 14px 18px;
-  border-left: 3px solid var(--accent);
-  border-radius: 0 10px 10px 0;
-  background: linear-gradient(135deg, #f2f5ef, #faf7ef);
-}
+
 /* Put a real face and recognised membership mark beside the About story. */
 .about-page .profile-visual {
   float: left;
@@ -538,10 +522,6 @@ body {
 }
 .home-copy > div > h2:last-of-type + p + p {
   padding-bottom: 20px;
-  border-radius: 0 0 12px 12px;
-}
-.contact-page .content-card > .page-copy > h2 + ol + p {
-  padding: 10px 22px 20px;
   border-radius: 0 0 12px 12px;
 }
 
@@ -674,11 +654,7 @@ body {
 
 
 /* Keep home callout panels visually consistent. */
-.home-copy > div > p:first-of-type {
-  border-left-width: 3px;
-  border-radius: 12px;
-  background: #f3f6f1;
-}
+
 .home-copy > div > h2:last-of-type,
 .home-copy > div > h2:last-of-type + p,
 .home-copy > div > h2:last-of-type + p + p {
@@ -703,7 +679,6 @@ body {
   opacity: .8;
   filter: saturate(.8);
 }
-.fees-page .page-copy > div > h2:nth-of-type(5) { clear: both; }
 
 /* The iPhone navigation is a compact, working dropdown rather than a squeezed desktop row. */
 @media (max-width: 767px) {
@@ -775,10 +750,8 @@ body {
 .contact-page.page-section { padding-top: 0; padding-bottom: 28px; }
 .contact-page .content-card { padding-bottom: 28px; }
 .contact-page .content-card > .section-title { margin-bottom: 16px; }
-.contact-page .content-card > .page-copy > p:first-child { padding: 14px 16px; font-size: 1rem; line-height: 1.55; }
 .contact-page .content-card > .page-copy > p { margin-bottom: 12px; }
 #contact .section-title { color: var(--accent-dark); font-weight: 700; }
-.home-copy > div > p:first-of-type { font-size: 1rem; line-height: 1.75; }
 
 /* Center interior page titles while keeping the homepage composition left aligned. */
 .content-page .content-card > .section-title { text-align: center; }
