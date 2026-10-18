@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --brand-primary: #9caf9f;
   --brand-secondary: #eaf0eb;
   --brand-color: #8ea596;
@@ -6,10 +6,10 @@
   --brand-color3: #edf2ed;
   --brand-color4: #f3f6f2;
   --brand-color5: #e3ebe5;
-  --accent: #76516b;
-  --accent-dark: #624256;
+  --accent: #98557b;
+  --accent-dark: #733d5b;
   --accent-light: #8eaa98;
-  --heading-accent: #76516b;
+  --heading-accent: #98557b;
   --text-dark: #303b35;
   --text-gray: #626b65;
   --text-light: #858d87;
@@ -160,8 +160,8 @@ body {
   margin-top: 12px;
   padding: 13px 18px;
   border-radius: 999px;
-  background: var(--accent-dark);
-  box-shadow: 0 8px 20px rgba(79, 113, 98, .22);
+  background: var(--accent);
+  box-shadow: 0 8px 20px rgba(115, 61, 91, .22);
   color: #fff !important;
   font-size: .85rem;
   font-weight: 700;
@@ -303,7 +303,7 @@ body {
 #contact .ci-text { color: var(--text-dark); }
 #contact .form-control { border-color: rgba(48, 59, 53, .18); border-radius: 8px; background: rgba(255, 254, 250, .88); }
 #contact .form-control:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(102, 136, 120, .14); }
-#contact .btn-mod { border-radius: 999px; background: var(--accent-dark); color: #fff !important; transition: transform .2s ease, background .2s ease; }
+#contact .btn-mod { border-radius: 999px; background: var(--accent); color: #fff !important; transition: transform .2s ease, background .2s ease; }
 #contact .btn-mod:hover, #contact .btn-mod:focus { background: var(--text-dark); color: #fff !important; transform: translateY(-2px); }
 
 @media (max-width: 767px) {
@@ -372,7 +372,7 @@ body {
 }
 .work-page .page-copy > div > h5 + ul { display: flex; gap: 16px; padding-left: 22px; }
 .fees-page .page-copy table { width: 100%; margin: 22px 0 34px; border-collapse: separate; border-spacing: 0; overflow: hidden; border: 1px solid rgba(102, 136, 120, .18); border-radius: 12px; }
-.fees-page .page-copy th { padding: 14px 18px; background: #edf2ec; color: var(--text-dark); font-size: .9rem; text-align: left; }
+.fees-page .page-copy th { padding: 14px 18px; background: #edf2ed; color: var(--text-dark); font-size: .9rem; text-align: left; }
 .fees-page .page-copy td { padding: 15px 18px; border-top: 1px solid rgba(102, 136, 120, .12); text-align: left; }
 .fees-page .page-copy td:not(:first-child) { color: var(--accent-dark); font-weight: 700; white-space: nowrap; }
 .fees-page .page-copy tr:nth-child(even) td { background: #faf9f5; }
@@ -575,7 +575,7 @@ body {
 .fees-page .page-copy > div > table th {
   padding: 13px 15px;
   border-bottom: 2px solid rgba(102,136,120,.28);
-  background: #edf2ec;
+  background: #edf2ed;
   color: var(--text-dark);
   font-size: .9rem;
   font-weight: 600;
@@ -752,7 +752,7 @@ body {
 .contact-page .content-card { padding-bottom: 28px; }
 .contact-page .content-card > .section-title { margin-bottom: 16px; }
 .contact-page .content-card > .page-copy > p { margin-bottom: 12px; }
-#contact .section-title { color: var(--accent-dark); font-weight: 700; }
+#contact .section-title { color: var(--accent-dark); font-weight: 700; margin-bottom: 34px; }
 
 /* Center interior page titles while keeping the homepage composition left aligned. */
 .content-page .content-card > .section-title { text-align: center; }
@@ -781,7 +781,7 @@ body {
   --brand-color4: #f3f6f2;
   --brand-color5: #e3ebe5;
 }
-.main-nav { border-bottom-color: var(--accent-dark); }
+.main-nav { border-bottom-color: var(--accent); }
 
 .fees-map-embed {
   width: 100%;
@@ -837,16 +837,22 @@ body {
   line-height: 1.5;
 }
 @media (max-width: 767px) {
-  /* The About summary repeats details available on its own page. */
+  /* Keep the opening focused; the longer audience summary is available on About. */
+  .home-copy > div > p:nth-of-type(2) { display: none; }
+
+  /* About is a separate page, so omit its repeated bio on the mobile homepage. */
   .home-copy > div > h2:nth-of-type(3),
   .home-copy > div > h2:nth-of-type(3) + p,
   .home-copy > div > h2:nth-of-type(3) + p + p { display: none; }
 
-  /* Keep the homepage topic list concise on small screens. */
-  .home-copy > div > h2:first-of-type + p + ul > li:nth-child(n + 5) { display: none; }
+  /* Keep only the three most representative reasons on small screens. */
+  .home-copy > div > h2:first-of-type + p + ul > li:nth-child(n + 4) { display: none; }
 
-  /* The dedicated How I Work page carries the session-style detail. */
+  /* The dedicated How I Work page carries the longer explanation. */
   .home-copy > div > h2:nth-of-type(2) + .home-room-feature + p { display: none; }
+
+  /* Keep the welcome line and call button, trimming the longer CTA explanation. */
+  .home-copy > div > h2:last-of-type + p + p { display: none; }
 }
 
 
