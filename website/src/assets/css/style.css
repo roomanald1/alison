@@ -9,7 +9,6 @@ Primary use: MultiPurpose Template
 -------------------------------------------------------------------*/
 
 
-@import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
 
@@ -352,7 +351,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #fff url(../images/loader.gif) no-repeat center center;
+    background: #fff;
     z-index: 100000;
 }
 
@@ -2871,7 +2870,7 @@ ul {
     left: 0;
     background-repeat: repeat;
     background-size: auto;
-    background-image: url(../images/pattern-bg-2.png);
+
 }
 
 .bg-gray {
@@ -4129,7 +4128,7 @@ ul {
     left: 50%;
     top: 50%;
     margin: -8px 0 0 -8px;
-    background: url(../images/loader.gif) no-repeat;
+    background: #fff;
 }
 
 /* Work navigation */

@@ -3,7 +3,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Banner } from "./Banner";
 
-const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
+const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { query: '?raw', import: 'default' });
 
 export function BlogPost() {
   const { date, slug } = useParams();

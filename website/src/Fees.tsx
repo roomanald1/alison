@@ -4,7 +4,7 @@ import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
 import { useCookieConsent } from "./CookieConsent";
 
-const md = import.meta.glob<string>('/src/content/fees/**/*.md', { as: 'raw' });
+const md = import.meta.glob<string>('/src/content/fees/**/*.md', { query: '?raw', import: 'default' });
 
 export function Fees() {
 

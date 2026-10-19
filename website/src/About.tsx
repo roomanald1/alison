@@ -3,7 +3,7 @@ import { marked } from "marked";
 import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
 
-const md = import.meta.glob<string>('/src/content/about/**/*.md', { as: 'raw' });
+const md = import.meta.glob<string>('/src/content/about/**/*.md', { query: '?raw', import: 'default' });
 
 export function About() {
 

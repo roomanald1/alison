@@ -4,7 +4,7 @@ import { parse } from "date-fns";
 import { useNavigate } from "react-router-dom";
 import { Banner } from "./Banner";
 
-const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { as: 'raw' });
+const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { query: '?raw', import: 'default' });
 export async function loadBlogs(number_of_items: number | "all") {
     let num = number_of_items == "all" ? undefined : Number(number_of_items)
     const entries = await Promise.all(
