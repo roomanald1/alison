@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from '@emailjs/browser';
+import { PsychologyTodayBadge } from './PsychologyTodayBadge';
 
 export function Contact() {
     const form = React.useRef<HTMLFormElement | null>(null);
@@ -67,7 +68,7 @@ export function Contact() {
 
                             <div className="form-group seal-row">
                                 <img className="bacp-logo" src="/bacp.png" alt="BACP" />
-                                <div id="pt-seal-mount"></div>
+                                <PsychologyTodayBadge />
                             </div>
 
                         </div>
@@ -79,6 +80,7 @@ export function Contact() {
                             </div>
                         </div>
                     </div>
+                    <p className="contact-privacy-note">Please keep your message brief and avoid detailed health or sensitive information. See the <a href="/privacy">privacy notice</a> for how enquiries are handled.</p>
                     <div className="clearfix">
 
                         <div className="cf-left-col">

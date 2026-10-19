@@ -21,10 +21,13 @@ import { About } from './About'
 import { Services } from './Services'
 import { Fees } from './Fees'
 import { ContactPage } from './ContactPage'
+import { PrivacyPage } from './PrivacyPage'
+import { CookieConsentBanner, CookieConsentProvider, CookieSettingsButton } from './CookieConsent'
 function App() {
 
 
   return (
+    <CookieConsentProvider>
     <div className='page'>
       <Navigation />
       <main id='main'>
@@ -37,10 +40,14 @@ function App() {
             <Route path="/services" element={with_contact(<Services />)} />
             <Route path="/fees" element={with_contact(<Fees />)} />
             <Route path="/contact" element={with_contact(<ContactPage />)} />
+            <Route path="/privacy" element={<PrivacyPage />} />
           </Routes>
         </BrowserRouter>
       </main>
+      <footer className="site-footer"><div className="container"><span>Alison Day Psychotherapy</span><div className="site-footer-links"><a href="/privacy">Privacy notice</a><CookieSettingsButton /></div></div></footer>
+      <CookieConsentBanner />
     </div>
+    </CookieConsentProvider>
   )
 }
 

@@ -2,12 +2,14 @@ import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
+import { useCookieConsent } from "./CookieConsent";
 
 const md = import.meta.glob<string>('/src/content/fees/**/*.md', { as: 'raw' });
 
 export function Fees() {
 
     const [content, setContent] = React.useState<string>("");
+    const { choice, reset } = useCookieConsent();
 
     React.useEffect(() => {
         const match = Object.entries(md)[0];
@@ -97,6 +99,23 @@ export function Fees() {
                     <section className='page-copy'>
                         <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
                     </section>
+                    <div className="fees-map-embed">
+                        {choice === "accepted" ? (
+                            <iframe
+                                title="Google Map showing Alison Day Psychotherapy business location in Sevenoaks"
+                                src="https://maps.google.com/maps?cid=14366542492817895060&output=embed"
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                allowFullScreen
+                            />
+                        ) : (
+                            <div className="fees-map-prompt">
+                                <p>{choice === "rejected" ? "Optional Google Map content is blocked by your cookie choice." : "Choose whether to load the Google Map. Google may receive basic device information and use cookies or similar technologies."}</p>
+                                {choice === "rejected" && <button type="button" className="btn-mod btn-round" onClick={reset}>Change cookie settings</button>}
+                                <a href="https://www.google.com/maps?cid=14366542492817895060" target="_blank" rel="noreferrer">Open in Google Maps</a>
+                            </div>
+                        )}
+                    </div>
                 </div>
             </section></>)
 }
