@@ -35,27 +35,27 @@ export function ContactPage() {
                 />
                 <meta property="og:title" content="Contact Alison Day | Psychotherapy in Sevenoaks" />
                 <meta property="og:description" content="Get in touch with Alison Day Psychotherapy in Sevenoaks to book an appointment or ask a question." />
-                <meta property="og:url" content="https://alisonday.netlify.app/contact" />
+                <meta property="og:url" content="https://alisondaytherapy.com/contact" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
+                <meta property="og:image" content="https://alisondaytherapy.com/headshot.jpg" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Contact Alison Day | Psychotherapy in Sevenoaks" />
                 <meta name="twitter:description" content="Contact Alison Day Psychotherapy to book a session or ask a question." />
-                <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
-                <link rel="canonical" href="https://alisonday.netlify.app/contact" />
+                <meta name="twitter:image" content="https://alisondaytherapy.com/headshot.jpg" />
+                <link rel="canonical" href="https://alisondaytherapy.com/contact" />
                 <script type="application/ld+json">
                     {`
       {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "Contact Alison Day Psychotherapy",
-        "url": "https://alisonday.netlify.app/contact",
+        "url": "https://alisondaytherapy.com/contact",
         "description": "Contact Alison Day Psychotherapy in Sevenoaks to book an appointment or ask a question.",
         "about": {
           "@type": "ProfessionalService",
           "name": "Alison Day Psychotherapy",
-          "url": "https://alisonday.netlify.app/"
+          "url": "https://alisondaytherapy.com/"
         }
       }
     `}

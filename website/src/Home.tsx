@@ -33,16 +33,16 @@ export function Home() {
             {/* OpenGraph */}
             <meta property="og:title" content="Alison Day Psychotherapy | Counselling & Psychotherapy in Sevenoaks" />
             <meta property="og:description" content="Professional psychotherapy and counselling in Sevenoaks with Alison Day. Support for anxiety, depression, relationships, and personal growth." />
-            <meta property="og:url" content="https://alisonday.netlify.app/" />
+            <meta property="og:url" content="https://alisondaytherapy.com/" />
             <meta property="og:type" content="website" />
-            <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
+            <meta property="og:image" content="https://alisondaytherapy.com/headshot.jpg" />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Alison Day Psychotherapy | Counselling & Psychotherapy in Sevenoaks" />
             <meta name="twitter:description" content="Professional psychotherapy and counselling in Sevenoaks with Alison Day." />
-            <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
-            <link rel="canonical" href="https://alisonday.netlify.app/" />
+            <meta name="twitter:image" content="https://alisondaytherapy.com/headshot.jpg" />
+            <link rel="canonical" href="https://alisondaytherapy.com/" />
             <script type="application/ld+json">
                 {`
       {
@@ -50,8 +50,8 @@ export function Home() {
         "@type": "ProfessionalService",
         "name": "Alison Day Psychotherapy",
         "description": "Psychotherapy and counselling services for adults in Sevenoaks.",
-        "url": "https://alisonday.netlify.app/",
-        "image": "https://alisonday.netlify.app/headshot.jpg",
+        "url": "https://alisondaytherapy.com/",
+        "image": "https://alisondaytherapy.com/headshot.jpg",
         "telephone": "+44 7445 316482",
         "priceRange": "£50–£90",
         "areaServed": ["Sevenoaks", "United Kingdom"],

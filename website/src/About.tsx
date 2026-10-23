@@ -34,15 +34,15 @@ export function About() {
                 />
                 <meta property="og:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
                 <meta property="og:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks offering compassionate, confidential counselling and psychotherapy for adults." />
-                <meta property="og:url" content="https://alisonday.netlify.app/about" />
+                <meta property="og:url" content="https://alisondaytherapy.com/about" />
                 <meta property="og:type" content="profile" />
-                <meta property="og:image" content="https://alisonday.netlify.app/headshot.jpg" />
+                <meta property="og:image" content="https://alisondaytherapy.com/headshot.jpg" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="About Alison Day | Psychotherapist in Sevenoaks" />
                 <meta name="twitter:description" content="Learn about Alison Day, a qualified psychotherapist in Sevenoaks." />
-                <meta name="twitter:image" content="https://alisonday.netlify.app/headshot.jpg" />
-                <link rel="canonical" href="https://alisonday.netlify.app/about" />
+                <meta name="twitter:image" content="https://alisondaytherapy.com/headshot.jpg" />
+                <link rel="canonical" href="https://alisondaytherapy.com/about" />
                 <script type="application/ld+json">
                     {`
       {
@@ -50,8 +50,8 @@ export function About() {
         "@type": "Person",
         "name": "Alison Day",
         "jobTitle": "Psychotherapist",
-        "url": "https://alisonday.netlify.app/about",
-        "image": "https://alisonday.netlify.app/headshot.jpg",
+        "url": "https://alisondaytherapy.com/about",
+        "image": "https://alisondaytherapy.com/headshot.jpg",
         "knowsAbout": ["Psychodynamic psychotherapy", "Anxiety", "Relationships", "Parenthood", "Grief and loss"],
         "areaServed": ["Sevenoaks", "United Kingdom"]
       }
