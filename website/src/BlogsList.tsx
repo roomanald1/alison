@@ -1,43 +1,33 @@
-import React from "react";
 import { marked } from 'marked';
 import { parse } from "date-fns";
 import { useNavigate } from "react-router-dom";
 import { Banner } from "./Banner";
 
-const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { query: '?raw', import: 'default' });
-export async function loadBlogs(number_of_items: number | "all") {
-    let num = number_of_items == "all" ? undefined : Number(number_of_items)
-    const entries = await Promise.all(
-        Object.entries(blogMds).slice(0, num).map(async ([path, loader]) => {
-            path = path.replace(".md", "");
-            let split = path.split('/')
-            let filename = split.pop() ?? "";
-            let dateStr = split.pop() ?? ""
-            let date = dateStr ?? "";
-            return ({
+const blogMds = import.meta.glob<string>('/src/content/blogs/**/*.md', { eager: true, query: '?raw', import: 'default' });
+export function loadBlogs(number_of_items: number | "all") {
+    const limit = number_of_items === "all" ? undefined : Number(number_of_items);
+    return Object.entries(blogMds)
+        .slice(0, limit)
+        .map(([path, content]) => {
+            const pathWithoutExtension = path.replace(".md", "");
+            const parts = pathWithoutExtension.split("/");
+            const filename = parts.pop() ?? "";
+            const date = parts.pop() ?? "";
+
+            return {
                 date: parse(date, "dd-MM-yyyy", new Date()),
                 filename,
-                path: dateStr + "/" + filename,
+                path: `${date}/${filename}`,
                 raw_date: date,
-                content: await loader() // <-- plain string
-            })
-        })
-    );
-
-    return entries;
+                content,
+            };
+        });
 }
 
 export function BlogsList(args: { number_of_items: number | "all", is_dark: boolean }) {
     const navigate = useNavigate();
 
-    const [blogs, setBlogs] = React.useState<{ date: Date, raw_date: String, filename: String, path: String, content: string }[]>([]);
-
-    React.useEffect(() => {
-        loadBlogs(args.number_of_items).then(blogs => {
-            let sorted = blogs.sort((a, b) => b.date.getTime() - a.date.getTime());
-            setBlogs(sorted)
-        });
-    }, []);
+    const blogs = loadBlogs(args.number_of_items).sort((a, b) => b.date.getTime() - a.date.getTime());
 
     return (<section id="blog" className={'page-section ' + (args.is_dark ? "bg-dark" : "")}>
           <Banner/>

@@ -173,7 +173,7 @@ export function PrivacyPage() {
       <Helmet>
         <title>Privacy Notice | Alison Day Psychotherapy</title>
         <meta name="description" content="How Alison Day Psychotherapy collects, uses and protects personal information." />
-        <link rel="canonical" href="https://www.alisondaytherapy.com/privacy" />
+        <link rel="canonical" href="https://alisondaytherapy.com/privacy" />
       </Helmet>
       <section className="page-section content-page privacy-page">
         <Banner />

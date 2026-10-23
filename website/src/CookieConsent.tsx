@@ -66,7 +66,7 @@ export function CookieConsentBanner() {
       <div className="cookie-consent-copy">
         <h2 id="cookie-consent-title">Your privacy choices</h2>
         <p id="cookie-consent-description">
-          Optional content from Google Maps and Psychology Today may use cookies or similar technologies and receive basic device information. Choose whether to load it. Your choice is saved for six months. Read the <a href="/privacy">privacy notice</a>.
+          Optional content from Google Maps and Psychology Today may use cookies or similar technologies and receive basic device information. Choose whether to load it. Your choice is saved for six months. Read our <a href="/privacy">privacy and data use details</a>.
         </p>
       </div>
       <div className="cookie-consent-actions">

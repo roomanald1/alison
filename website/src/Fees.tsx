@@ -1,28 +1,14 @@
-import React from "react";
 import { marked } from "marked";
 import { Banner } from "./Banner";
 import { Helmet } from "react-helmet-async";
 import { useCookieConsent } from "./CookieConsent";
 
-const md = import.meta.glob<string>('/src/content/fees/**/*.md', { query: '?raw', import: 'default' });
+const md = import.meta.glob<string>('/src/content/fees/**/*.md', { eager: true, query: '?raw', import: 'default' });
 
 export function Fees() {
 
-    const [content, setContent] = React.useState<string>("");
+    const content = Object.values(md)[0] ?? "";
     const { choice, reset } = useCookieConsent();
-
-    React.useEffect(() => {
-        const match = Object.entries(md)[0];
-        console.log(match)
-        if (!match) return;
-
-        const [, loader] = match;
-
-        loader().then(raw => {
-            console.log(raw)
-            setContent(raw)
-        });
-    }, []);
 
     return (
         <>

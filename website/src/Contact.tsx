@@ -80,7 +80,7 @@ export function Contact() {
                             </div>
                         </div>
                     </div>
-                    <p className="contact-privacy-note">Please keep your message brief and avoid detailed health or sensitive information. See the <a href="/privacy">privacy notice</a> for how enquiries are handled.</p>
+                    <p className="contact-privacy-note">Please keep your message brief and avoid detailed health or sensitive information. See <a href="/privacy">how enquiry information is handled</a>.</p>
                     <div className="clearfix">
 
                         <div className="cf-left-col">
