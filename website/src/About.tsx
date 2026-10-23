@@ -58,7 +58,7 @@ export function About() {
                     </div>
                     <div className="profile">
                         <div className="profile-visual">
-                            <img className="profile-portrait" src="/headshot.jpg" alt="Alison Day" />
+                            <img className="profile-portrait" src="/headshot.jpg" alt="Alison Day" width={900} height={1349} decoding="async" />
                         </div>
 
                         <div

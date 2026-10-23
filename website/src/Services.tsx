@@ -23,12 +23,12 @@ export function Services() {
                 <meta property="og:description" content="Explore psychotherapy and counselling services offered by Alison Day in Sevenoaks. Compassionate, confidential support tailored to your needs." />
                 <meta property="og:url" content="https://alisondaytherapy.com/services" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://alisondaytherapy.com/therapy-room.png" />
+                <meta property="og:image" content="https://alisondaytherapy.com/therapy-room.jpg" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Psychotherapy & Counselling Services | Alison Day" />
                 <meta name="twitter:description" content="Explore psychotherapy and counselling services in Sevenoaks." />
-                <meta name="twitter:image" content="https://alisondaytherapy.com/therapy-room.png" />
+                <meta name="twitter:image" content="https://alisondaytherapy.com/therapy-room.jpg" />
                 <link rel="canonical" href="https://alisondaytherapy.com/services" />
                 <script type="application/ld+json">
                     {JSON.stringify({

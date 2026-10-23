@@ -57,7 +57,7 @@ export function Home() {
                             <p className='home-hero-location'>In Sevenoaks and online</p>
                             <a className='home-cta' href='/contact'>Arrange a free 15-minute call <span aria-hidden='true'>&#8594;</span></a>
                         </div>
-                        <img className='home-portrait' src='/headshot.jpg' alt='Alison Day, psychotherapist' />
+                        <img className='home-portrait' src='/headshot.jpg' alt='Alison Day, psychotherapist' width={900} height={1349} fetchPriority='high' decoding='async' />
                     </section>
                     <section className='home-copy'>
                         <div dangerouslySetInnerHTML={{ __html: marked(content) }} />

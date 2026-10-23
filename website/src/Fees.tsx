@@ -23,12 +23,12 @@ export function Fees() {
                 <meta property="og:description" content="View psychotherapy and counselling fees for sessions with Alison Day in Sevenoaks. Learn about session length, pricing, and available options." />
                 <meta property="og:url" content="https://alisondaytherapy.com/fees" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="https://alisondaytherapy.com/therapy-room.png" />
+                <meta property="og:image" content="https://alisondaytherapy.com/therapy-room.jpg" />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Therapy Fees | Alison Day Psychotherapy" />
                 <meta name="twitter:description" content="Psychotherapy and counselling fees in Sevenoaks." />
-                <meta name="twitter:image" content="https://alisondaytherapy.com/therapy-room.png" />
+                <meta name="twitter:image" content="https://alisondaytherapy.com/therapy-room.jpg" />
                 <link rel="canonical" href="https://alisondaytherapy.com/fees" />
                 <script type="application/ld+json">
                     {JSON.stringify({
@@ -37,7 +37,7 @@ export function Fees() {
                       "@id": "https://alisondaytherapy.com/#business",
                       "name": "Alison Day Psychotherapy",
                       "url": "https://alisondaytherapy.com/",
-                      "image": "https://alisondaytherapy.com/therapy-room.png",
+                      "image": "https://alisondaytherapy.com/therapy-room.jpg",
                       "telephone": "+44 7445 316482",
                       "priceRange": "£50–£90",
                       "areaServed": ["Sevenoaks", "United Kingdom"],

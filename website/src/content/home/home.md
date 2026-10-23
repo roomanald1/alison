@@ -23,7 +23,7 @@ You might be:
 
 ## How I work
 
-<div class="home-room-feature"><img src="/therapy-room.png" alt="A welcoming therapy room with two armchairs and a small table" /></div>
+<div class="home-room-feature"><img src="/therapy-room.jpg" loading="lazy" decoding="async" alt="A welcoming therapy room with two armchairs and a small table" /></div>
 As a psychodynamic psychotherapist, I help people explore the deeper patterns shaping their thoughts, feelings, and relationships. Together, we make sense of what's happening beneath the surface so that meaningful and lasting change becomes possible.
 Sessions are conversational, collaborative, and led by your pace. You don’t need to arrive with the “right” words – we find them together.
 

@@ -67,7 +67,7 @@ export function Contact() {
                             </div>
 
                             <div className="form-group seal-row">
-                                <img className="bacp-logo" src="/bacp.png" alt="BACP" />
+                                <img className="bacp-logo" src="/bacp.png" alt="BACP" width={540} height={241} loading="lazy" decoding="async" />
                                 <PsychologyTodayBadge />
                             </div>
 

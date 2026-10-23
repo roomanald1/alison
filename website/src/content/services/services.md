@@ -4,7 +4,7 @@ Greater understanding can create the opportunity for meaningful and lasting chan
 You don't need to arrive with a clear story or know exactly what to say. We can find the words together.
 
 <figure class="service-room-feature">
-  <img src="/therapy-room.png" alt="The calm, welcoming therapy room in Sevenoaks" />
+  <img src="/therapy-room.jpg" loading="lazy" decoding="async" alt="The calm, welcoming therapy room in Sevenoaks" />
   <figcaption><strong>A calm space to talk</strong><span>In-person sessions in Sevenoaks, with online therapy also available.</span></figcaption>
 </figure>
 
