@@ -62,7 +62,7 @@ export function About() {
                         </div>
 
                         <div
-                            dangerouslySetInnerHTML={{ __html: marked(content) }}
+                            dangerouslySetInnerHTML={{ __html: marked(content.replace(/^####\s/gm, "### ")) }}
                         />
                     </div>
                 </div>

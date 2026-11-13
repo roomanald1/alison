@@ -10,7 +10,7 @@ export function Home() {
     return (<>
 
         <Helmet>
-            <title>Alison Day Psychotherapy & Counselling | Sevenoaks </title>
+            <title>Counselling &amp; Psychotherapy in Sevenoaks | Alison Day</title>
             <meta name="google-site-verification" content="Ioney9rAuqd4MypEad3wggtSSLo1SQUl1VcHPghWWKo" />
             <meta
                 name="description"

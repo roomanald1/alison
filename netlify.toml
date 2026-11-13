@@ -1,0 +1,31 @@
+[build]
+  base = "website"
+  command = "npm run build"
+  publish = "dist"
+
+[build.processing.html]
+  pretty_urls = false
+
+[[redirects]]
+  from = "http://www.alisondaytherapy.com/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.alisondaytherapy.com/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://alisondaytherapy.netlify.app/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://alisondaytherapy.netlify.app/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true

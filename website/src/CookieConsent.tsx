@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
 type ConsentChoice = "accepted" | "rejected" | null;
 type ConsentContextValue = {
@@ -28,7 +28,9 @@ function readChoice(): ConsentChoice {
 }
 
 export function CookieConsentProvider({ children }: { children: ReactNode }) {
-  const [choice, setChoice] = useState<ConsentChoice>(readChoice);
+  const [choice, setChoice] = useState<ConsentChoice>(null);
+
+  useEffect(() => setChoice(readChoice()), []);
 
   const choose = (next: Exclude<ConsentChoice, null>) => {
     try {
