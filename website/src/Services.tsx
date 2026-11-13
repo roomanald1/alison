@@ -72,7 +72,7 @@ export function Services() {
                             <details>
                                 <summary>2. What happens when I first get in touch about counselling?</summary>
                                 <p>We begin with a free 15-minute online consultation, giving us an opportunity to meet, get a sense of each other and discuss what has brought you to therapy. I'll explain how I work, and you can ask any questions you may have.</p>
-                                <p>If we decide to work together, our first full counselling session lasts up to 90 minutes. This gives us time to explore in more detail what has brought you to therapy, your past experiences and relationships, and what you hope to gain from our work together. It also helps me understand how best to support you moving forward.</p>
+                                <p>If we decide to work together, our first full counselling session lasts up to 75 minutes. This gives us time to explore in more detail what has brought you to therapy, your past experiences and relationships, and what you hope to gain from our work together. It also helps me understand how best to support you moving forward.</p>
                             </details>
                             <details>
                                 <summary>3. Is everything I say in counselling confidential?</summary>
