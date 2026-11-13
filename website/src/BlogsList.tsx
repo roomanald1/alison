@@ -41,6 +41,7 @@ export function BlogsList(args: { number_of_items: number | "all", is_dark: bool
           <Helmet>
             <title>Journal | Alison Day Psychotherapy</title>
             <meta name="description" content="Reflections and articles on psychotherapy, counselling and emotional wellbeing from Alison Day in Sevenoaks." />
+            <meta name="robots" content="noindex,follow" />
             <link rel="canonical" href="https://alisondaytherapy.com/blog" />
           </Helmet>
           <Banner/>

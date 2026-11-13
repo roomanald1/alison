@@ -17,6 +17,7 @@ export function BlogPost() {
       <Helmet>
         <title>{`${title} | Alison Day Psychotherapy`}</title>
         <meta name="description" content={description || `Read ${title}, an article from Alison Day Psychotherapy.`} />
+        <meta name="robots" content="noindex,follow" />
         <link rel="canonical" href={canonical} />
       </Helmet>
       <section className="page-section">
