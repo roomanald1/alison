@@ -14,7 +14,10 @@ export function Banner() {
 
       <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
        <div style={{ display: "block", marginTop: 20 }}>
-                    <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day logo" />
+                    <picture>
+                      <source srcSet="/logo.webp" type="image/webp" />
+                      <img style={{ maxHeight: 140, height: "auto", width: "auto" }} src="/logo.png" alt="Alison Day logo" width={293} height={291} decoding="async" />
+                    </picture>
                 </div>
       </div>
   </div>)

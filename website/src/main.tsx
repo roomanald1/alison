@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { hydrateRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import '@flaticon/flaticon-uicons/css/all/all.css';
+import '@flaticon/flaticon-uicons/css/regular/rounded.css';
 import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter } from 'react-router-dom'
 

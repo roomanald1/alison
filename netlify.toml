@@ -19,13 +19,29 @@
   force = true
 
 [[redirects]]
-  from = "http://alisondaytherapy.netlify.app/*"
+  from = "http://alisonday.netlify.app/*"
   to = "https://alisondaytherapy.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://alisondaytherapy.netlify.app/*"
+  from = "https://alisonday.netlify.app/*"
   to = "https://alisondaytherapy.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "http://alisonday.netlify.com/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://alisonday.netlify.com/*"
+  to = "https://alisondaytherapy.com/:splat"
+  status = 301
+  force = true
+
+[[edge_functions]]
+  function = "canonical-path"
+  path = "/*"

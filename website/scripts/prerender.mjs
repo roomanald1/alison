@@ -43,7 +43,9 @@ try {
     await writeFile(output, html);
   }
 
-  const sitemapRoutes = [...routes];
+  // Blog content remains available in the source and prerendered output, but
+  // placeholder blog pages are deliberately excluded from the public sitemap.
+  const sitemapRoutes = ["/", "/about", "/services", "/fees", "/contact", "/privacy"];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapRoutes.map(route => `  <url><loc>https://alisondaytherapy.com${route === "/" ? "/" : route.split("/").map((part, index) => index === 0 ? part : encodeURIComponent(part)).join("/")}</loc></url>`).join("\n")}\n</urlset>\n`;
   await writeFile(path.join(dist, "sitemap.xml"), sitemap);
 } finally {
