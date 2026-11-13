@@ -183,21 +183,21 @@ export function PrivacyPage() {
         <meta name="twitter:description" content="How Alison Day Psychotherapy collects, uses and protects personal information." />
         <meta name="twitter:image" content="https://alisondaytherapy.com/headshot.jpg" />
         <link rel="canonical" href="https://alisondaytherapy.com/privacy" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Privacy Notice | Alison Day Psychotherapy",
-            "url": "https://alisondaytherapy.com/privacy",
-            "description": "How Alison Day Psychotherapy collects, uses and protects personal information.",
-            "isPartOf": {
-              "@type": "WebSite",
-              "name": "Alison Day Psychotherapy",
-              "url": "https://alisondaytherapy.com/"
-            }
-          })}
-        </script>
       </Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Privacy Notice | Alison Day Psychotherapy",
+          "url": "https://alisondaytherapy.com/privacy",
+          "description": "How Alison Day Psychotherapy collects, uses and protects personal information.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Alison Day Psychotherapy",
+            "url": "https://alisondaytherapy.com/"
+          }
+        })}
+      </script>
       <section className="page-section content-page privacy-page">
         <Banner />
         <div className="container relative content-card">
