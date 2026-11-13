@@ -13,7 +13,7 @@ export function render(url: string) {
   );
   const headElements: string[] = [];
   const bodyHtml = appHtml.replace(
-    /<title>[\s\S]*?<\/title>|<meta\b[^>]*\/>|<link\b[^>]*\/>|<script\b[^>]*>[\s\S]*?<\/script>/g,
+    /<title>[\s\S]*?<\/title>|<meta\b[^>]*\/>|<link\b[^>]*\/>/g,
     element => {
       headElements.push(element);
       return "";

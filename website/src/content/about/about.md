@@ -14,9 +14,13 @@ My background includes work in community services, perinatal support and long-te
 ## Areas I specialise in
  
 #### <i class="fi fi-rr-family" style="vertical-align:middle; margin-right: 5px"></i>**Parenthood and identity changes**
+Explore the emotional shifts and questions that can come with becoming a parent or experiencing changes in how you see yourself.
 #### <i class="fi fi-rr-cloud-rain" style="vertical-align:middle; margin-right: 10px"></i>**Loss, grief and life transitions**
+Make space for grief, uncertainty and the feelings that can accompany bereavement, endings or major life changes.
 #### <i class="fi fi-rr-people-network-partner" style="vertical-align:middle; margin-right: 10px"></i>**Relationship difficulties and family dynamics**
+Look at recurring patterns and how past and present relationships may shape the way you feel and relate to others.
 #### <i class="fi fi-rr-seedling" style="vertical-align:middle; margin-right: 5px"></i>**Anxiety, low mood & emotional overwhelm**
+Gently explore what may be contributing to difficult feelings and develop a clearer understanding of your experiences.
 
 <p class="specialisms-note">While these are common themes, you don't need to fit into a particular category to benefit from therapy.</p>
 
